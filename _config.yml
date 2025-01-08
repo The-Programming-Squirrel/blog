@@ -23,7 +23,7 @@ email: programming.squirrel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Programming Squirrel is a youthful and honest developer/hacker blog. It is a platform for in-depth coding tutorials presented in both video and written formats, including a social media presence.
 baseurl: "/blog"
-url: "https://the-programming-squirrel.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ProgramSquirrel
 github_username:  The-Programming-Squirrel
 
