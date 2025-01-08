@@ -28,11 +28,9 @@ twitter_username: ProgramSquirrel
 github_username:  The-Programming-Squirrel
 
 # Build settings
-remote_theme: "jeffreytse/jekyll-theme-yat"
-
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
