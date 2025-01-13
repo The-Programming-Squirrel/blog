@@ -23,7 +23,7 @@ description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" # the base hostname & protocol for your site, e.g. http://example.com
-theme: "jekyll-theme-yat"
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Navigation
 header_pages:
@@ -52,6 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme 
 
 # YAT Theme Options
 yat:
