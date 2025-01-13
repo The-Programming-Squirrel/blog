@@ -23,15 +23,14 @@ description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" # the base hostname & protocol for your site, e.g. http://example.com
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 
 # Navigation
 header_pages:
   - index.md
   - blog/index.md
+  - about/index.md
   - contact/index.md
-  - privacy-policy/index.md
-  - terms-and-conditions/index.md
 
 # Social Links
 social:
@@ -50,15 +49,3 @@ author:
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme 
-
-# YAT Theme Options
-yat:
-  show_sidebar: true
-  favicon: "/assets/images/favicon.ico" # Replace with your favicon path
-  logo: "/assets/images/logo.png"       # Replace with your logo path
-  social_links: true                    # Enable social links in the footer
-  show_tags: true                       # Enable tags display for posts
-  show_categories: true                 # Enable categories display for posts

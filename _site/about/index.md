@@ -1,4 +1,4 @@
-About Us!
+# About Us!
 
 The-Programming-Squirrel is a vibrant and inclusive brand dedicated to empowering aspiring cybersecurity professionals, with a special focus on beginners and women breaking into the field. Designed to demystify cybersecurity concepts, The-Programming-Squirrel delivers accessible, relatable, and fun tutorials, comprehensive certification guides, and practical career advice.
 
