@@ -30,7 +30,6 @@ header_pages:
   - index.md
   - blog/index.md
   - about/index.md
-  - contact/index.md
 
 # Social Links
 social:
