@@ -18,36 +18,46 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Programming Squirrel
-email: nyki@the-programming-squirrel.com
+title: The-Programming-Squirrel
 description: >- # this means to ignore newlines until "baseurl:"
-  The Programming Squirrel is a youthful and honest developer/hacker blog. It is a platform for in-depth coding tutorials presented in both video and written formats, including a social media presence.
+  Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ProgramSquirrel
-github_username:  The-Programming-Squirrel
+theme: jekyll-theme-yat
 
-# Build settings
-theme: minima
+# Navigation
+header_pages:
+  - index.md
+  - blog/index.md
+  - contact/index.md
+  - privacy-policy/index.md
+  - terms-and-conditions/index.md
+
+# Social Links
+social:
+  email: nyki@the-programming-squirrel.com
+  twitter: ProgramSquirrel
+  github: The-Programming-Squirrel
+  linkedin: nykianderson
+
+# Author Details
+author:
+  name: Nyki Anderson
+  avatar: "/assets/images/avatar.jpg" # Replace with your avatar image
+  bio: >
+    Passionate cybersecurity advocate, empowering women & beginners with fun, accessible resources to crack the code & thrive in the field! 
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# YAT Theme Options
+yat:
+  show_sidebar: true
+  favicon: "/assets/images/favicon.ico" # Replace with your favicon path
+  logo: "/assets/images/logo.png"       # Replace with your logo path
+  social_links: true                    # Enable social links in the footer
+  show_tags: true                       # Enable tags display for posts
+  show_categories: true                 # Enable categories display for posts
