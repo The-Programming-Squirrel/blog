@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The-Programming-Squirrel
-description: >- # this means to ignore newlines until "baseurl:"
+description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" # the base hostname & protocol for your site, e.g. http://example.com
