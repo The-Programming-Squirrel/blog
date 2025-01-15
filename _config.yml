@@ -19,10 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The-Programming-Squirrel
-tagline: 
-ChatGPT said:
-ChatGPT
-"Empowering Curious Minds with Nuts of Knowledge in Tech and Cybersecurity!"
+tagline: "Empowering Curious Minds with Nuts of Knowledge in Tech and Cybersecurity!"
 description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
