@@ -31,3 +31,20 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+########################### Custom Theme Gems ############################
+gem "squirrel-theme" => :path => "./squirrel-theme"
+
+# Jekyll YouTube
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+  gem "premonition", "4.0.1" # Admonitions
+  gem "jekyll-spaceship"
+  gem 'jekyll-glossary_tooltip'
+end
+
+gem "jekyll-sass-converter"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-toc"
+gem "jekyll-figure"

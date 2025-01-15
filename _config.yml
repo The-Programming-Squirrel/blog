@@ -19,31 +19,57 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The-Programming-Squirrel
+tagline: 
+ChatGPT said:
+ChatGPT
+"Empowering Curious Minds with Nuts of Knowledge in Tech and Cybersecurity!"
 description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Navigation
-header_pages:
-  - index.md
-  - blog/index.md
-  - about/index.md
-
-# Social Links
-social:
-  email: nyki@the-programming-squirrel.com
-  twitter: ProgramSquirrel
-  github: The-Programming-Squirrel
-  linkedin: nykianderson
-
 # Author Details
 author:
   name: Nyki Anderson
-  avatar: "/assets/images/avatar.jpg" # Replace with your avatar image
+  avatar: "/assets/images/avatar.png" # Replace with your avatar image
   bio: >
     Passionate cybersecurity advocate, empowering women & beginners with fun, accessible resources to crack the code & thrive in the field! 
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
+########################## Squirrel Theme ##########################
+theme: squirrel-theme
 
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - premonition
+  - jekyll-spaceship
+  - jekyll-glossary_tooltip
+  - jekyll-toc
+  - jekyll-figure
+
+# Premonition custom callouts
+premonition:
+  types:
+    objectives:
+      icon: "fa fa-bullseye"
+      title: "Objectives"
+    tip:
+      icon: "fa fa-lightbulb-o"
+      title: "Tip"
+    quote:
+      icon: "fa fa-quote-left"
+      title: "Quote"
+    resource:
+      icon: "fa fa-book"
+      title: "Resource"
+    recall:
+      icon: "fa fa-fast-backward"
+      title: "Recall"
