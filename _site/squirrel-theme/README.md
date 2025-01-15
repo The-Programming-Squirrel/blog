@@ -17,7 +17,7 @@ gem "squirrel-theme"
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: squirrel-theme
+theme: jekyll-squirrel-theme
 ```
 
 And then execute:
