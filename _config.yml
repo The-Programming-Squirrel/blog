@@ -24,7 +24,7 @@ description: >
   Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
 baseurl: ""
 url: "https://the-programming-squirrel.com" 
-theme: squirrel-theme
+theme: jekyll-squirrel-theme
 
 # Author Details
 author:
