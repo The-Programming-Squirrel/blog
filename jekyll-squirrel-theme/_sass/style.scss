@@ -1,0 +1,38 @@
+/* assets/css/style.scss */
+:root {
+    --squirrel-purple: #833563;
+    --squirrel-teal: #63959A;
+    --squirrel-rose: #CCBAC3;
+    --squirrel-navy: #031928;
+    --squirrel-sky: #B8E1F9;
+  }
+  
+  /* Utility Classes */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--squirrel-navy);
+    background-color: var(--squirrel-sky);
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--squirrel-purple);
+  }
+  
+  a {
+    color: var(--squirrel-teal);
+  }
+  
+  button {
+    background-color: var(--squirrel-purple);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--squirrel-teal);
+  }
+  

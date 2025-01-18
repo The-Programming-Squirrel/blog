@@ -1,0 +1,8 @@
+# Theme Skin
+skin: default # default, dark, light
+
+# Navigation Pages
+navigation_pages: 
+  - blog.md
+  - community.md
+  - contact.md
