@@ -1,0 +1,54 @@
+<footer class="site-footer">
+  <div class="container">
+    <!-- Social Media Links -->
+    <div class="footer-social">
+      <h4>Connect with us</h4>
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/The-Programming-Squirrel" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.patreon.com/c/TheProgrammingSquirrel" target="_blank" rel="noopener noreferrer" aria-label="Patreon">
+            <img src="{{ '/assets/icons/patreon.svg' | relative_url }}" alt="Patreon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.reddit.com/user/Programming-Squirrel/" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
+            <img src="{{ '/assets/icons/reddit.svg' | relative_url }}" alt="Reddit">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61567216955618" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="{{ '/assets/icons/facebook.svg' | relative_url }}" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/ProgramSquirrel" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <img src="{{ '/assets/icons/x.svg' | relative_url }}" alt="Twitter">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Footer Navigation -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+        <li><a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a></li>
+        <li><a href="{{ '/terms-and-conditions/' | relative_url }}">Terms & Conditions</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Branding -->
+    <div class="footer-branding">
+      <a href="{{ '/' | relative_url }}" class="footer-logo">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="The Programming Squirrel Logo">
+      </a>
+      <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

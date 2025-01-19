@@ -9,14 +9,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -32,18 +24,18 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Squirrel Theme
-gem "squirrel-theme", :path => "./squirrel-theme"
+gem "jekyll-squirrel-theme", "0.1.2"
 
-# Jekyll YouTube
+# Plugins
 group :jekyll_plugins do
-  gem "jekyll-youtube"
+  gem "jekyll-feed", "~> 0.12"
   gem "premonition", "4.0.1" # Admonitions
-  gem "jekyll-spaceship"
-  gem 'jekyll-glossary_tooltip'
+  gem "jekyll-spaceship", "0.10.2"
+  gem "jekyll-glossary_tooltip", "1.5.0"
+  gem "jekyll-sass-converter", "3.0.0"
+  gem "jekyll-seo-tag", "2.8.0"
+  gem "jekyll-sitemap", "1.4.0"
+  gem "jekyll-toc", "0.19.0"
+  gem "jekyll-figure", "0.2.0"
+  gem "jekyll-paginate-v2", "3.0.0"
 end
-
-gem "jekyll-sass-converter"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
-gem "jekyll-toc"
-gem "jekyll-figure"

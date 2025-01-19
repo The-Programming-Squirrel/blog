@@ -1,2 +1,2 @@
-# Welcome to the Programming Squirrel Official Website
+# Welcome to the Programming Squirrel
 
