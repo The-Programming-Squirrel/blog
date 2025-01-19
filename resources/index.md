@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Community
+title: Resources
 ---

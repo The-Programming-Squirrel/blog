@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Contact Us
 ---
 ## Our Philosophy at The-Programming-Squirrel
 

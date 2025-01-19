@@ -30,9 +30,10 @@ h6 {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	color: var(--text-color);
 	border-bottom: 2px solid var(--text-color);
+	margin-bottom: 5rem;
 }
 
 h2 {
@@ -149,6 +150,10 @@ button:hover {
   color: var(--text-color); 
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-image: url(/assets/images/nav-watermark.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode:overlay;
 }
 
 .main-navigation .container {
@@ -158,7 +163,7 @@ button:hover {
 }
 
 .main-navigation .logo img {
-  width: 100px; /* Logo size */
+  width: 50%;
   height: auto;
 	border-radius: 100%;
 }
@@ -166,7 +171,7 @@ button:hover {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
   margin: 0;
   padding: 0;
 }
@@ -176,9 +181,9 @@ button:hover {
 }
 
 .nav-links a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--ui-font);
 	font-variant: small-caps;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
@@ -187,7 +192,7 @@ button:hover {
 
 .nav-links a.fa-solid,
 .nav-links a {
-	color: var(--secondary-color);
+	color: var(--background-color);
 }
 
 
@@ -195,7 +200,7 @@ button:hover {
 .nav-links a.active,
 .nav-links a.fa-solid:hover,
 .nav-links a.fa-solid.active {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 
@@ -209,15 +214,18 @@ button:hover {
   padding: 5rem 2rem;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
 .hero .tagline {
   font-size: 1.5rem;
+	font-style: italic;
   margin-bottom: 2rem;
 	color: var(--secondary-color);
+}
+
+.hero img {
+	width: 50%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Styles */
@@ -245,7 +253,16 @@ section {
   margin-top: 2rem;
 }
 
+.resource-cards img {
+	height: 50%;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .resource-cards .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
   background-color: var(--background-color); /* Squirrel Navy */
   color: var(--text-color); /* Squirrel Sky */
   border: 1px solid var(--secondary-color); /* Squirrel Rose */
@@ -257,9 +274,33 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.resource-cards .flag {
+	opacity: 0;
+	position: absolute;
+}
+
+.resource-cards .card:hover .flag {
+	font-family: var(--ui-font);
+	background-color: var(--secondary-color);
+	padding: 0.5rem;
+	opacity: 70;
+	top: -15px;
+	left: -25px;
+	border-radius: 5%;
+}
+
 .resource-cards .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.community {
+	text-align: center;
+}
+
+.community img {
+	width: 60%;
+	height: auto;
 }
 
 .newsletter {
@@ -268,7 +309,7 @@ section {
 	color: var(--text-color);
 	overflow: hidden;
 	width: 100%;
-	padding-top: 120%;
+	padding-top: 75%;
 }
 
 .newsletter iframe {
@@ -299,16 +340,18 @@ section {
   gap: 1.5rem;
 }
 
+.footer-links h5,
+.footer-social h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-variant: small-caps;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: var(--secondary-color);
+}
+
 /* Social Media Section */
 .footer-social {
   flex: 1 1 200px;
-}
-
-.footer-social h5 {
-  font-family: 'Montserrat', sans-serif;
-	font-variant: small-caps;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 .social-links {
@@ -338,14 +381,8 @@ section {
 /* Footer Navigation */
 .footer-links {
   flex: 1 1 200px;
-}
-
-.footer-links h5 {
-  font-family: 'Montserrat', sans-serif;
-	font-variant: small-caps;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-	text-align: center;
+	border-top: 2px solid var(--secondary-color);
+	border-bottom: 2px solid var(--secondary-color);
 }
 
 .footer-links ul {
@@ -379,13 +416,14 @@ section {
 .footer-logo img {
   width: 150px;
   height: auto;
-  margin-bottom: 1rem;
+	margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-branding p {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
-  color: var(--background-color); /* Squirrel Rose */
+  color: var(--secondary-color);
 }
 
 /* Error Page */
