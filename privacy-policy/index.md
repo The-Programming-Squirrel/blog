@@ -1,3 +1,6 @@
+---
+layout: page
+---
 **Effective Date: January 13, 2025**
 
 The-Programming-Squirrel ("we," "our," or "us") values your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, store, share, and protect your information when you visit our website, the-programming-squirrel.com (the "Website"). It also explains your rights and how to exercise them.
