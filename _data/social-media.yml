@@ -1,0 +1,41 @@
+email:
+  id: "nyki@the-programming-squirrel.com"
+  href: "mailto:"
+  title: "Email"
+  fa-icon: "fa-solid fa-envelope"
+
+github:
+  id: "the-programming-squirrel"
+  href: "www.github.com/"
+  title: "GitHub"
+  fa-icon: "fa-brands fa-github"
+
+patreon:
+  id: "TheProgrammingSquirrel"
+  href: "www.patreon.com/"
+  title: "Patreon"
+  fa-icon: "fa-brands fa-patreon"
+
+x:
+  id: "ProgramSquirrel"
+  href: "www.x.com/"
+  title: "X"
+  fa-icon: "fa-brands fa-x"
+
+facebook:
+  id: "TheProgrammingSquirrel"
+  href: "www.facebook.com/"
+  title: "Facebook"
+  fa-icon: "fa-brands fa-facebook"
+
+reddit:
+  id: "Programming-Squirrel"
+  href: "www.reddit.com/user/"
+  title: "Reddit"
+  fa-icon: "fa-brands fa-reddit"
+
+discord:
+  id: "KyQbWaExdt"
+  href: "discord.com/invite/"
+  title: "Discord"
+  fa-icon: "fa-brands fa-discord"

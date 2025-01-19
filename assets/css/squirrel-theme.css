@@ -123,6 +123,7 @@ button:hover {
 	width: 30%;
 	margin: 0 auto;
   display: flex;
+	flex-direction: column;
 	justify-content: center;
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -131,18 +132,15 @@ button:hover {
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: background-color 0.3s ease;
-	align-content: center;
+	align-content: baseline;
 }
 
 .cta-button:hover {
   background-color: var(--secondary-color);
 	color: var(--text-color);
 }
-
-
-
 
 /* Navigation Bar */
 .main-navigation {
@@ -163,9 +161,9 @@ button:hover {
 }
 
 .main-navigation .logo img {
-  width: 30%;
+  width: 50%;
   height: auto;
-	border-radius: 100%;
+	border-radius: 5px;
 }
 
 .nav-links {
@@ -344,8 +342,6 @@ section {
 .footer-social h5 {
 	font-family: 'Montserrat', sans-serif;
 	font-variant: small-caps;
-	font-size: 2.5rem;
-	margin-bottom: 1rem;
 	color: var(--secondary-color);
 }
 
@@ -354,28 +350,28 @@ section {
   flex: 1 1 200px;
 }
 
-.social-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1rem;
-}
-
-.social-links li {
-  margin: 0;
-}
-
-.social-links a {
+/* Social Media Links */
+#social-media .container {
+	display: flex;
 	justify-content: center;
-  width: 32px;
-  height: 32px;
 }
 
-.social-links img {
-  width: 50%;
-  height: 100%;
-  object-fit: contain;
+#social-media ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+#social-media li {
+	margin: 0;
+}
+
+#social-media a {
+	color: var(--secondary-color)
+}
+
+#social-media a:hover {
+	color: var(--accent-color)
 }
 
 /* Footer Navigation */
@@ -404,7 +400,7 @@ section {
 }
 
 .footer-links a:hover {
-  color: #63959A; /* Squirrel Teal */
+  color: var(--accent-color);
 }
 
 /* Footer Branding */
