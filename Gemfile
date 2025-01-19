@@ -39,3 +39,4 @@ group :jekyll_plugins do
   gem "jekyll-figure", "0.2.0"
   gem "jekyll-paginate-v2", "3.0.0"
 end
+gem "webrick", "~> 1.9"
