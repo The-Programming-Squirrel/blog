@@ -1,3 +1,6 @@
+---
+layout: page
+---
 **Effective Date: January 13, 2025**
 
 Welcome to The-Programming-Squirrel (“we,” “our,” or “us”). These Terms and Conditions (“Terms”) govern your access to and use of our website, the-programming-squirrel.com (the “Website”), including any content, functionality, products, and services offered on or through the Website. By accessing or using the Website, you agree to be bound by these Terms.
