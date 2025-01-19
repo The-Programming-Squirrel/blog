@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 ---
-## Our Philosophy at The-Programming-Squirrel
+## Our Philosophy
 
 At The-Programming-Squirrel, we believe everyone has the power to succeed in cybersecurity. Our mission is to empower women and beginners to overcome challenges and build fulfilling careers in this exciting field.
 
