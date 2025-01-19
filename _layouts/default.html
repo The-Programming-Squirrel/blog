@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/squirrel-theme.css' | relative_url }}">
-  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
-  <link
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
-  rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&icon_names=rss_feed,forum,volunteer_activism,send" rel="stylesheet" />
-<link rel="stylesheet" href="./assets/css/squirrel-theme.css" />
-</head>
+{include head.html}
 <body>
   <header>
     {% include navigation.html %}
@@ -19,8 +6,6 @@
   <main>
     {{ content }}
   </main>
-  <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All rights reserved.</p>
-  </footer>
+{% include footer.html %}
 </body>
 </html>
