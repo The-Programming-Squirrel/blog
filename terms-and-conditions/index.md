@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Terms & Conditions
 ---
 **Effective Date: January 13, 2025**
 

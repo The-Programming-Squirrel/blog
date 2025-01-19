@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Privacy Policy
 ---
 **Effective Date: January 13, 2025**
 
