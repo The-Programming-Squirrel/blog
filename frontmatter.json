@@ -1,0 +1,326 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "title": "Frontmatter Team Setting",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.preview.host": "http://localhost:1344",
+  "frontMatter.git.enabled": true,
+  "frontMatter.git.requiresCommitMessage": ["master"],
+  "frontMatter.website.host": "the-programming-squirrel.com",
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve --host 0.0.0.0 --livereload",
+  "frontMatter.taxonomy.dateFormat": "PPpp",
+  "frontMatter.content.wysiwyg": false,
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "_posts",
+      "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "_pages",
+      "path": "[[workspace]]/_pages"
+    },
+    {
+      "title": "_drafts",
+      "path": "[[workspace]]/_drafts"
+    }
+  ],
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+    "id": "author",
+    "labelField": "name",
+    "fields": [
+      {
+        "title": "Author Name",
+        "name": "name",
+        "type": "string",
+        "single": true,
+        "description": "The name of the content's author."
+      },
+      {
+        "title": "Job Title",
+        "name": "title",
+        "type": "string",
+        "single": true,
+        "description": "The author's role or professional title, such as 'Editor' or 'Cybersecurity Expert'."
+      },
+      {
+        "title": "Avatar Image",
+        "name": "avatar",
+        "type": "image",
+        "single": true,
+        "description": "A URL linking to the author's profile image or avatar."
+      },
+      {
+        "title": "Email Address",
+        "name": "email",
+        "type": "string",
+        "single": true,
+        "description": "The author's professional email address for correspondence."
+      }
+    ]
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "previewPath": "[[workspace]]/assets/images/previews/",
+      "pageBundle": false,
+      "template": "[[workspace]]/frontmatter/templates/default.md",
+      "fields": [
+        {
+          "title": "Permalink",
+          "name": "permalink",
+          "type": "string",
+          "description": "The permanent URL for this content, typically including the domain and slug.",
+          "required": true
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "description": "The headline or title of the content, displayed prominently to users and search engines.",
+          "required": true
+        },
+        {
+          "title": "Author Bio",
+          "name": "author",
+          "type": "block",
+          "required": true,
+          "fieldGroup": [
+            "author"
+          ]
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string",
+          "description": "A brief summary of the content, optimized for SEO and previews.",
+          "required": true
+        },
+        {
+          "title": "Date Published",
+          "name": "date",
+          "type": "datetime",
+          "isPublishDate": true,
+          "dateFormat": "PPpp",
+          "description": "The original publication date of the content (formatted: Apr 29, 1453, 12:00:00 AM).",
+          "required": false
+        },
+        {
+          "title": "Date Modified",
+          "name": "last_mod",
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "PPpp",
+          "description": "The date when the content was last modified, (formatted: Apr 29, 1453, 12:00:00 AM).",
+          "required": true
+        },
+        {
+          "title": "URL Slug",
+          "name": "slug",
+          "type": "slug",
+          "editable": true,
+          "default": "{{date|YYYY-MM-DD}}-{(seoTitle}}",
+          "description": "A URL-friendly identifier derived from the title, used to construct the permalink.",
+          "required": true
+        },
+        {
+          "title": "Focus Keywords",
+          "name": "keywords",
+          "type": "list",
+          "description": "A list of relevant keywords for SEO purposes.",
+          "required": true
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories",
+          "description": "The primary topic or classification for the content.",
+          "required": true
+        },
+        {
+          "title": "Draft Status",
+          "name": "draft",
+          "type": "choice",
+          "choices": ["draft", "in-progress", "published"],
+          "description": "A selection indicating the status of the article.",
+          "required": true
+        },
+        {
+          "title": "Preview Image",
+          "name": "preview",
+          "type": "image",
+          "isPreviewImage": true,
+          "multiple": false,
+          "description": "A small thumbnail image for use in the Dashboard.",
+          "required": true
+        },
+        {
+          "title": "Related Posts",
+          "name": "related_posts",
+          "type": "list",
+          "description": "An array of slugs or IDs linking to related content or articles.",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "frontMatter.media.contentTypes": [{
+    "name": "default",
+    "fileTypes": ["png", "jpg", "jpeg", "gif"],
+    "fields": [
+    {
+      "title": "Title",
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "title": "Author",
+      "name": "author",
+      "type": "string"
+    },
+    {
+      "title": "Alt text",
+      "name": "alt",
+      "type": "string"
+    }]
+  }],
+  "frontMatter.data.types": [
+    {
+      "id": "social-media",
+      "schema": {
+        "title": "Social Media",
+        "type": "object",
+        "required": [
+          "id",
+          "href",
+          "title",
+          "fa-icon"
+        ],
+        "properties": {
+          "platform": {
+            "type": "string",
+            "title": "Social Platform"
+          },
+          "id": {
+            "type": "string",
+            "title": "Social Profile"
+          },
+          "href": {
+            "type": "string",
+            "title": "Social Domain"
+          },
+          "title": {
+            "type": "string",
+            "title": "Platform Name"
+          },
+          "fa-icon": {
+            "type": "string",
+            "title": "FA Icon Class"
+          }
+        }
+      }
+    },
+    {
+      "id": "menus",
+      "schema": {
+        "title": "Menu Links",
+        "type": "object",
+        "required": [
+          "menu",
+          "title",
+          "href",
+          "src",
+          "alt",
+          "md"
+        ],
+        "properties": {
+          "menu": {
+            "type": "string",
+            "title": "Menu Context"
+          },
+          "title": {
+            "type": "string",
+            "title": "Display Name for Link"
+          },
+          "icon": {
+            "type": "string",
+            "title": "FA Icon Class"
+          },
+          "href": {
+            "type": "string",
+            "title": "URL of Link"
+          },
+          "dir": {
+            "type": "string",
+            "title": "Markdown Directory"
+          },
+          "md": {
+            "type": "string",
+            "title": "Markdown Key"
+          }
+        }
+      }
+    },
+    {
+      "id": "callouts",
+      "schema": {
+        "title": "Custom Callouts",
+        "type": "object",
+        "required": [
+          "name",
+          "class",
+          "icon",
+          "color",
+          "title"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Callout Identifier"
+          },
+          "class": {
+            "type": "string",
+            "title": "CSS Class"
+          },
+          "icon": {
+            "type": "string",
+            "title": "FA Icon Class"
+          },
+          "color": {
+            "type": "string",
+            "title": "HEX Value of Callout Color"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title of Callout"
+          }
+        }
+      }
+    }
+  ],
+  "frontMatter.projects": [
+    {
+      "name": "blog",
+      "default": true,
+      "configuration": {
+        "frontMatter.content.pageFolders": [{
+          "title": "Blog posts",
+          "path": "[[workspace]]/_posts"
+        }],
+        "frontMatter.content.publicFolder": "[[workspace]]/assets"
+      }
+    },
+    {
+      "name": "portfolio",
+      "configuration": {
+        "frontmatter.content.pageFolders": [{
+          "title": "Portfolio Showcase",
+          "path": "[[workspace]]/_projects"
+        }],
+        "frontMatter.content.publicFolder": "[[workspace]]/assets"
+      }
+    }
+  ]
+}

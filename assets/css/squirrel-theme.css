@@ -8,6 +8,19 @@
 	--heading-font: 'Playfair Display', serif;
 	--body-font: 'Open Sans', sans-serif;
 	--ui-font: 'Montserrat', sans-serif;
+
+	/* Custom Callout Colors */
+	--callout-info-color: {{ site.data.callouts.info.color }};
+	--callout-note-color: {{ site.data.callouts.note.color }};
+	--callout-tip-color: {{ site.data.callouts.tip.color }};
+	--callout-alert-color: {{ site.data.callouts.alert.color }};
+	--callout-objective-color: {{ site.data.callouts.objective.color }};
+	--callout-quote-color: {{ site.data.callouts.quote.color }};
+	--callout-resource-color: {{ site.data.callouts.resource.color }};
+	--callout-recall-color: {{ site.data.callouts.recall.color }};
+	--callout-bug-color: {{ site.data.callouts.bug.color }};
+	--callout-code-color: {{ site.data.callouts.code.color }};
+	--callout-default-color: {{ site.data.callouts.default.color }};
 }
 
 body {
@@ -450,4 +463,22 @@ section {
 .error-page .message {
 	font-style: italic;
 	color: var(--accent-color);
+}
+
+.callout {
+	padding: 1rem; 
+	border-radius: 8px; 
+	display: flex; 
+	align-items: flex-start; 
+	gap: 1rem; 
+	border: 1px solid #ccc;
+}
+
+
+
+
+/* Custom Callouts (Admonitions) */
+.callout-info {
+	background-color: var(--callout-info-color);
+	color: var(--background-color);
 }

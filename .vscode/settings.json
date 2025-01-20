@@ -12,5 +12,9 @@
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#4c727699",
     "titleBar.inactiveForeground": "#e7e7e799"
-  }
+  },
+  "markdownlint.config": {
+    "MD036": false
+  },
+  "frontMatter.dashboard.openOnStart": true
 }

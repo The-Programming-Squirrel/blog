@@ -1,0 +1,65 @@
+- name: info
+  class: callout-info
+  icon: <i class="fa-solid fa-circle-info"></i>
+  color: #D0F5F7
+  title: Info
+
+- name: note
+  class: callout-note
+  icon: <i class="fa-solid fa-pen-to-square"></i>
+  color: #CCBAC3
+  title: Note
+
+- name: tip
+  class: callout-tip
+  icon: <i class="fa-solid fa-lightbulb"></i>
+  color: #63959A
+  title: Tip
+
+- name: alert
+  class: callout-alert
+  icon: <i class="fa-solid fa-bell"></i>
+  color: #E87A2E
+  title: Alert
+
+- name: objective
+  class: callout-objective
+  icon: <i class="fa-solid fa-bullseye"></i>
+  color: #833563
+  title: Objectives
+
+- name: quote
+  class: callout-quote
+  icon: <i class="fa-solid fa-quote-left"></i>
+  color: #F7E3E8
+  title: Quote
+
+- name: resource
+  class: callout-resource
+  icon: <i class="fa-solid fa-link"></i>
+  color: #031928
+  title: Resource
+
+- name: recall
+  class: callout-recall
+  icon: <i class="fa-solid fa-clock-rotate-left"></i>
+  color: #D4A76A
+  title: Recall
+
+- name: bug
+  class: callout-bug
+  icon: <i class="fa-solid fa-bug"></i>
+  color: #C0392B
+  title: Bug
+
+- name: code
+  class: callout-code
+  icon: <i class="fa-solid fa-code"></i>
+  color: #333F44
+  title: Code
+
+- name: default
+  class: callout-default
+  icon: <i class="fa-solid fa-magnifying-glass"></i>
+  color: #F7F7F7
+  title: none

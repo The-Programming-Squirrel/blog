@@ -1,14 +1,22 @@
 <nav class="main-navigation">
   <div class="container">
-    <a href="{{ '/' | relative_url }}" class="logo">
-      <img src="{{ '/assets/images/logos/logo-512x512.png' | relative_url }}" alt="The Programming Squirrel Logo">
+    {% if site.data.menus.logo %}
+      {% for item in site.data.menus.logo %}
+    <a href="{{ item.href }}" class="logo">
+      <img src="{{ item.src }}" alt="{{ item.alt }}">
     </a>
+      {% endfor %}
+    {% endif %}
     <ul class="nav-links">
+    {% if site.data.menus.navbar %}
+      {% for item in site.data.menus.navbar %}
+        {% if item.title %}
       <li>
-        <a href="{{ '/blog/' | relative_url }}" class="{% if page.url contains '/blog/' %}active{% endif %}"><i class="fa-solid fa-newspaper fa-xl"></i> Blog</a></li>
-      <li><a href="{{ '/community/' | relative_url }}" class="{% if page.url contains '/community/' %}active{% endif %}"><i class="fa-solid fa-comments fa-xl"></i> Community</a></li>
-      <li><a href="{{ '/resources/' | relative_url }}" class="{% if page.url contains '/resources/' %}active{% endif %}"><i class="fa-solid fa-bookmark fa-xl"></i> Resources</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}" class="{% if page.url contains '/contact/' %}active{% endif %}"><i class="fa-solid fa-paper-plane fa-xl"></i> Contact</a></li>
+        <a href="{{ item.href | relative_url }}" title="{{ item.title }}" class="{% if page.url == item.href %}active{% endif %}"><i class="fa-solid {{ item.icon }} fa-xl"></i> {{ item.title }}</a>
+      </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
     </ul>
   </div>
 </nav>

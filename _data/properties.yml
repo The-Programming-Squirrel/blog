@@ -1,0 +1,51 @@
+- permalink:
+  type: 
+  description:
+  required:
+- title:
+  type: 
+  description:
+  required:
+- author:
+  type: 
+  description:
+  required:
+- description:
+  type: 
+  description:
+  required:
+- date:
+  type: 
+  description:
+  required:
+  isPublishDate: true
+- last_modified:
+  type: 
+  description:
+  required:
+  isModifiedDate: true
+- slug:
+  type: 
+  description:
+  required:
+- keywords:
+  type: 
+  description:
+  required:
+- categories:
+  type: 
+  description:
+  required:
+- draft:
+  type: choice
+  choices: [draft, in progress, published]
+  description:
+  required:
+- preview:
+  type: 
+  description:
+  required:
+- related_posts:
+  type: 
+  description:
+  required:
