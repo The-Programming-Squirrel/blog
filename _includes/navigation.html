@@ -1,22 +1,22 @@
 <nav class="main-navigation">
   <div class="container">
     {% if site.data.menus.logo %}
-      {% for item in site.data.menus.logo %}
-    <a href="{{ item.href }}" class="logo">
+    {% for item in site.data.menus.logo %}
+    <a href="{% link item.dir %}" class="logo">
       <img src="{{ item.src }}" alt="{{ item.alt }}">
     </a>
-      {% endfor %}
+    {% endfor %}
     {% endif %}
     <ul class="nav-links">
-    {% if site.data.menus.navbar %}
+      {% if site.data.menus.navbar %}
       {% for item in site.data.menus.navbar %}
-        {% if item.title %}
       <li>
-        <a href="{{ item.href | relative_url }}" title="{{ item.title }}" class="{% if page.url == item.href %}active{% endif %}"><i class="fa-solid {{ item.icon }} fa-xl"></i> {{ item.title }}</a>
+        <a href="{% link item.dir %}" title="{{ item.title }}" {% if
+          page.url=={{ page.permalink }} %} class="active" {% endif %}><i
+            class="fa-solid {{ item.icon }} fa-xl"></i> {{ item.title }}</a>
       </li>
-        {% endif %}
       {% endfor %}
-    {% endif %}
+      {% endif %}
     </ul>
   </div>
 </nav>

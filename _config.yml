@@ -30,3 +30,14 @@ plugins:
   - jekyll-toc
   - jekyll-figure
 
+# Blog Post Permalink Automation
+permalink: /blog/:slugified-categories/:year/:month/:day/:slug:output.ext
+
+# Syntax Highlighting
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids:       true
+  toc_levels:     1..3

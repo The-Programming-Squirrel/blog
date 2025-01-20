@@ -1,65 +1,69 @@
 - name: info
   class: callout-info
   icon: <i class="fa-solid fa-circle-info"></i>
+  emoji: ℹ️
   color: #D0F5F7
   title: Info
 
 - name: note
   class: callout-note
   icon: <i class="fa-solid fa-pen-to-square"></i>
+  emoji: 🖊️
   color: #CCBAC3
   title: Note
 
 - name: tip
   class: callout-tip
   icon: <i class="fa-solid fa-lightbulb"></i>
+  emoji: 💡
   color: #63959A
   title: Tip
 
 - name: alert
   class: callout-alert
   icon: <i class="fa-solid fa-bell"></i>
+  emoji: 🔔
   color: #E87A2E
   title: Alert
 
 - name: objective
   class: callout-objective
   icon: <i class="fa-solid fa-bullseye"></i>
+  emoji: 🎯
   color: #833563
   title: Objectives
 
 - name: quote
   class: callout-quote
   icon: <i class="fa-solid fa-quote-left"></i>
+  emoji: 🗯️
   color: #F7E3E8
   title: Quote
 
 - name: resource
   class: callout-resource
   icon: <i class="fa-solid fa-link"></i>
+  emoji: 🔗
   color: #031928
   title: Resource
 
 - name: recall
   class: callout-recall
   icon: <i class="fa-solid fa-clock-rotate-left"></i>
+  emoji: ⏪
   color: #D4A76A
   title: Recall
 
 - name: bug
   class: callout-bug
   icon: <i class="fa-solid fa-bug"></i>
+  emoji: 🪲
   color: #C0392B
   title: Bug
-
-- name: code
-  class: callout-code
-  icon: <i class="fa-solid fa-code"></i>
-  color: #333F44
-  title: Code
 
 - name: default
   class: callout-default
   icon: <i class="fa-solid fa-magnifying-glass"></i>
+  emoji: 🔍
   color: #F7F7F7
   title: none

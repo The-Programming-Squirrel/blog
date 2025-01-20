@@ -1,44 +1,27 @@
 logo:
   - title: Home
-    href: /
+    dir: index.html
     src: /assets/images/logos/logo-512x512.png
     alt: "The-Programming-Squirrel Dark Theme Logo."
-    md: home
 navbar: 
   - title: Blog
     icon: fa-newspaper
-    href: /blog/
-    dir: /_pages/blog
-    md: blog
+    dir: "_posts/blog.md"
   - title: Community
     icon: fa-comments
-    href: /community/
-    dir: /_pages/community
-    md: community
+    dir: _pages/community.md
   - title: Portfolio
     icon: fa-graduation-cap
-    href: /portfolio/
-    dir: /_pages/projects
-    md: index
+    dir: _projects/index.md
   - title: Contact Us
     icon: fa-inbox
-    href: /contact/
-    dir: /_pages/contact
-    md: contact
+    dir: _pages/contact.md
 footer-links:
   - title: Privacy Policy
-    href: /privacy-policy
-    dir: /_pages/privacy-policy
-    md: privacy-policy
+    dir: _pages/legal-docs/privacy-policy.md
   - title: Terms & Conditions
-    href: /terms-conditions
-    dir: /_pages/terms-conditions
-    md: terms-conditions
+    dir: _pages/legal-docs/terms-conditions.md
   - title: Cookie Policy
-    href: /cookie-policy
-    dir: /_pages/cookie-policy
-    md: cookie-policy
+    dir: _pages/legal-docs/cookie-policy.md
   - title: Contact Us
-    href: /contact
-    dir: /_pages/contact
-    md: contact
+    dir: _pages/contact.md

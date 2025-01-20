@@ -1,15 +1,26 @@
 ---
+permalink: /cookie-policy/
+fmContentType: default
 layout: page
-title: Cookie Policy Explained for The Programming Squirrel
+title: "Legal Docs: The Cookie Policy"
+author:
+   - name: Nyki Anderson
+     title: Lead Cybersecurity Architect & Founder
+     avatar: /images/avatar.png
+     email: nyki@the-programming-squirrel.com
+     fieldGroup: author
 description: Understand our Cookie Policy to enhance your privacy and browsing experience on The Programming Squirrel website.
-preview: /images/previews/cookie-policy-preview.jpg
+date: Jan 20, 2025, 8:08:23 AM
+last_mod: Jan 20, 2025, 5:33:15 AM
+slug: cookie-policy-explained-programming-squirrel
 keywords:
    - Cookie Policy
    - Essential Cookies
    - Functionality Cookies
-tags: []
-slug: cookie-policy-explained-programming-squirrel
-last_mod: Jan 20, 2025, 5:33:15 AM
+categories:
+   - Legal Documents
+preview: /images/previews/cookie-policy-preview.jpg
+draft: published
 ---
 *Last updated: January 19th, 2025*
 

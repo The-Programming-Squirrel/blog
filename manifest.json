@@ -1,0 +1,35 @@
+{
+  "manifest_version": "3",
+  "version": "1.0",
+  "name": "The-Programming-Squirrel",
+  "short_name": "ProgSquirrel",
+  "description": "Cybersecurity tips, tools, and resources for learners of all levels.",
+  "author": "nyki@the-programming-squirrel.com",
+  "homepage_url": "the-programming-squirrel.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#031928",
+  "theme_color": "#63959A",
+  "icons": [
+    {
+      "src": "/assets/images/logos/squirrel-logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logos/squirrel-logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logos/squirrel-logo-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "technology", "cybersecurity"],
+  "default_locale": "en",
+  "lang": "en",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}

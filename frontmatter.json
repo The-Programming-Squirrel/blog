@@ -5,7 +5,9 @@
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.preview.host": "http://localhost:1344",
   "frontMatter.git.enabled": true,
-  "frontMatter.git.requiresCommitMessage": ["master"],
+  "frontMatter.git.requiresCommitMessage": [
+    "master"
+  ],
   "frontMatter.website.host": "the-programming-squirrel.com",
   "frontMatter.framework.startCommand": "bundle exec jekyll serve --host 0.0.0.0 --livereload",
   "frontMatter.taxonomy.dateFormat": "PPpp",
@@ -13,52 +15,52 @@
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.content.pageFolders": [
     {
-      "title": "_posts",
+      "title": "Blog posts",
       "path": "[[workspace]]/_posts"
     },
     {
-      "title": "_pages",
-      "path": "[[workspace]]/_pages"
-    },
-    {
-      "title": "_drafts",
+      "title": "Drafts",
       "path": "[[workspace]]/_drafts"
     }
   ],
   "frontMatter.taxonomy.fieldGroups": [
     {
-    "id": "author",
-    "labelField": "name",
-    "fields": [
-      {
-        "title": "Author Name",
-        "name": "name",
-        "type": "string",
-        "single": true,
-        "description": "The name of the content's author."
-      },
-      {
-        "title": "Job Title",
-        "name": "title",
-        "type": "string",
-        "single": true,
-        "description": "The author's role or professional title, such as 'Editor' or 'Cybersecurity Expert'."
-      },
-      {
-        "title": "Avatar Image",
-        "name": "avatar",
-        "type": "image",
-        "single": true,
-        "description": "A URL linking to the author's profile image or avatar."
-      },
-      {
-        "title": "Email Address",
-        "name": "email",
-        "type": "string",
-        "single": true,
-        "description": "The author's professional email address for correspondence."
-      }
-    ]
+      "id": "author",
+      "labelField": "name",
+      "fields": [
+        {
+          "title": "Author Name",
+          "name": "name",
+          "type": "string",
+          "single": true,
+          "description": "The name of the content's author.",
+          "default": "Nyki Anderson"
+        },
+        {
+          "title": "Job Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "description": "The author's role or professional title, such as 'Editor' or 'Cybersecurity Expert'.",
+          "default": "Lead Cybersecurity Architect & Founder"
+        },
+        {
+          "title": "Avatar Image",
+          "name": "avatar",
+          "type": "image",
+          "single": true,
+          "description": "A URL linking to the author's profile image or avatar.",
+          "default": "/images/avatar.png"
+        },
+        {
+          "title": "Email Address",
+          "name": "email",
+          "type": "string",
+          "single": true,
+          "description": "The author's professional email address for correspondence.",
+          "default": "nyki@the-programming-squirrel.com"
+        }
+      ]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
@@ -72,21 +74,18 @@
           "title": "Permalink",
           "name": "permalink",
           "type": "string",
-          "description": "The permanent URL for this content, typically including the domain and slug.",
-          "required": true
+          "description": "The permanent URL for this content, typically including the domain and slug."
         },
         {
           "title": "Title",
           "name": "title",
           "type": "string",
-          "description": "The headline or title of the content, displayed prominently to users and search engines.",
-          "required": true
+          "description": "The headline or title of the content, displayed prominently to users and search engines."
         },
         {
           "title": "Author Bio",
           "name": "author",
           "type": "block",
-          "required": true,
           "fieldGroup": [
             "author"
           ]
@@ -95,8 +94,7 @@
           "title": "Description",
           "name": "description",
           "type": "string",
-          "description": "A brief summary of the content, optimized for SEO and previews.",
-          "required": true
+          "description": "A brief summary of the content, optimized for SEO and previews."
         },
         {
           "title": "Date Published",
@@ -104,8 +102,7 @@
           "type": "datetime",
           "isPublishDate": true,
           "dateFormat": "PPpp",
-          "description": "The original publication date of the content (formatted: Apr 29, 1453, 12:00:00 AM).",
-          "required": false
+          "description": "The original publication date of the content (formatted: Apr 29, 1453, 12:00:00 AM)."
         },
         {
           "title": "Date Modified",
@@ -113,39 +110,37 @@
           "type": "datetime",
           "isModifiedDate": true,
           "dateFormat": "PPpp",
-          "description": "The date when the content was last modified, (formatted: Apr 29, 1453, 12:00:00 AM).",
-          "required": true
+          "description": "The date when the content was last modified, (formatted: Apr 29, 1453, 12:00:00 AM)."
         },
         {
           "title": "URL Slug",
           "name": "slug",
           "type": "slug",
           "editable": true,
-          "default": "{{date|YYYY-MM-DD}}-{(seoTitle}}",
-          "description": "A URL-friendly identifier derived from the title, used to construct the permalink.",
-          "required": true
+          "description": "A URL-friendly identifier derived from the title, used to construct the permalink."
         },
         {
           "title": "Focus Keywords",
           "name": "keywords",
           "type": "list",
-          "description": "A list of relevant keywords for SEO purposes.",
-          "required": true
+          "description": "A list of relevant keywords for SEO purposes."
         },
         {
           "title": "Categories",
           "name": "categories",
           "type": "categories",
-          "description": "The primary topic or classification for the content.",
-          "required": true
+          "description": "The primary topic or classification for the content."
         },
         {
           "title": "Draft Status",
           "name": "draft",
           "type": "choice",
-          "choices": ["draft", "in-progress", "published"],
-          "description": "A selection indicating the status of the article.",
-          "required": true
+          "choices": [
+            "draft",
+            "in-progress",
+            "published"
+          ],
+          "description": "A selection indicating the status of the article."
         },
         {
           "title": "Preview Image",
@@ -153,8 +148,7 @@
           "type": "image",
           "isPreviewImage": true,
           "multiple": false,
-          "description": "A small thumbnail image for use in the Dashboard.",
-          "required": true
+          "description": "A small thumbnail image for use in the Dashboard."
         },
         {
           "title": "Related Posts",
@@ -162,30 +156,48 @@
           "type": "list",
           "description": "An array of slugs or IDs linking to related content or articles.",
           "required": false
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }
   ],
-  "frontMatter.media.contentTypes": [{
-    "name": "default",
-    "fileTypes": ["png", "jpg", "jpeg", "gif"],
-    "fields": [
+  "frontMatter.media.contentTypes": [
     {
-      "title": "Title",
-      "name": "title",
-      "type": "string"
-    },
-    {
-      "title": "Author",
-      "name": "author",
-      "type": "string"
-    },
-    {
-      "title": "Alt text",
-      "name": "alt",
-      "type": "string"
-    }]
-  }],
+      "name": "default",
+      "fileTypes": [
+        "png",
+        "jpg",
+        "jpeg",
+        "gif"
+      ],
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "Alt text",
+          "name": "alt",
+          "type": "string"
+        }
+      ]
+    }
+  ],
   "frontMatter.data.types": [
     {
       "id": "social-media",
@@ -305,22 +317,27 @@
       "name": "blog",
       "default": true,
       "configuration": {
-        "frontMatter.content.pageFolders": [{
-          "title": "Blog posts",
-          "path": "[[workspace]]/_posts"
-        }],
+        "frontMatter.content.pageFolders": [
+          {
+            "title": "Blog Articles",
+            "path": "[[workspace]]/_posts"
+          }
+        ],
         "frontMatter.content.publicFolder": "[[workspace]]/assets"
       }
     },
     {
       "name": "portfolio",
       "configuration": {
-        "frontmatter.content.pageFolders": [{
-          "title": "Portfolio Showcase",
-          "path": "[[workspace]]/_projects"
-        }],
+        "frontmatter.content.pageFolders": [
+          {
+            "title": "Portfolio Showcase",
+            "path": "[[workspace]]/_projects"
+          }
+        ],
         "frontMatter.content.publicFolder": "[[workspace]]/assets"
       }
     }
-  ]
+  ],
+  "frontMatter.dashboard.openOnStart": true
 }

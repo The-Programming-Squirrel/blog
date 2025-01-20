@@ -1,11 +1,30 @@
 ---
+permalink: /terms-conditions/
+fmContentType: default
 layout: page
-title: Terms & Conditions
-preview: /images/previews/terms-conditions-preview.jpg
+title: "Legal Docs: The Terms & Conditions"
+author:
+  - name: Nyki Anderson
+    title: Lead Cybersecurity Architect & Founder
+    avatar: /images/avatar.png
+    email: nyki@the-programming-squirrel.com
+    fieldGroup: author
+description: Understand the Terms & Conditions for using The-Programming-Squirrel website and ensure a safe and compliant experience.
+date: Jan 20, 2025, 7:46:20 AM
 last_mod: Jan 20, 2025, 5:34:09 AM
+slug: "{{date|YYYY-MM-DD}}-{(seoTitle}}"
+keywords:
+  - Terms and Conditions
+  - Website Terms of Use
+  - User Agreement Policy
+categories:
+  - Legal Documents
+meta-title: null
+meta-description: null
+preview: /images/previews/terms-conditions-preview.jpg
+draft: published
 ---
 **Effective Date: January 13, 2025**
-
 Welcome to The-Programming-Squirrel (“we,” “our,” or “us”). These Terms and Conditions (“Terms”) govern your access to and use of our website, the-programming-squirrel.com (the “Website”), including any content, functionality, products, and services offered on or through the Website. By accessing or using the Website, you agree to be bound by these Terms.
 
 If you have any questions or concerns, please contact us at <nyki@the-programming-squirrel.com>.
@@ -140,6 +159,6 @@ These Terms shall be governed by and construed in accordance with the laws of th
 
 If you have any questions about these Terms, please contact us:
 
-Email: <nyki@the-programming-squirrel.com>  
+Email: <nyki@the-programming-squirrel.com>
 
 Thank you for using The-Programming-Squirrel. We’re excited to support your journey in cybersecurity!
