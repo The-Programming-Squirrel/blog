@@ -1,25 +1,25 @@
 ---
 permalink: /privacy-policy/
+slug: legal-docs-privacy-policy
 fmContentType: default
 layout: page
 title: "Legal Docs: The Privacy Policy"
 author:
-  - name: Nyki Anderson
-    title: Lead Cybersecurity Architect & Founder
-    avatar: /images/avatar.png
-    email: nyki@the-programming-squirrel.com
-    fieldGroup: author
+    - name: Nyki Anderson
+      title: Lead Cybersecurity Architect & Founder
+      avatar: /images/avatar.png
+      email: nyki@the-programming-squirrel.com
+      fieldGroup: author
 description: Learn how we collect, use, and protect your personal information to ensure your privacy and security while using our website
 date: Jan 20, 2025, 7:37:33 AM
-last_mod: Jan 20, 2025, 5:33:44 AM
-slug: privacy-policy
+last_mod: Jan 20, 2025, 7:20:05 PM
 keywords:
     - Privacy Policy
     - Data Protection Policy
     - User Privacy Guidelines
 categories:
     - Legal Documents
-preview: /images/previews/privacy-policy-preview.jpg
+preview: /previews/privacy-policy-preview.jpg
 draft: published
 ---
 *Effective Date: January 13, 2025*

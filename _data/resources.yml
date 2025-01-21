@@ -1,0 +1,27 @@
+navbar: 
+  - blog:
+    dir: blog/index.md
+    title: Blog
+    icon: fa-newspaper
+  - portfolio:
+    dir: portfolio/index.md
+    title: Portfolio
+    icon: fa-graduation-cap
+  - contact:
+    dir: pages/contact.md
+    title: Contact Us
+    icon: fa-inbox
+    
+footer-links:
+  - privacy-policy:
+    dir: legal-docs/privacy-policy.md
+    title: Privacy Policy
+  - terms-conditions:
+    dir: legal-docs/terms-conditions.md
+    title: Terms & Conditions
+  - cookie-policy:
+    dir: legal-docs/cookie-policy.md
+    title: Cookie Policy
+  - contact:
+    dir: pages/contact.md
+    title: Contact Us

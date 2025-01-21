@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: default
 title: The Programming Squirrel Landing Page
 ---
@@ -8,9 +9,12 @@ title: The Programming Squirrel Landing Page
   <section class="hero">
     <div class="container">
       <h1>The Programming Squirrel</h1>
-      <img src="{{ '/assets/images/cybersecurity-squirrel.png' | relative_url }}" alt="The Programming Squirrel Logo">
-      <p class="tagline">Break barriers. Unlock your cybersecurity career potential.</p>
-      <a href="#about" class="cta-button">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+      <img src="{% link assets/categories/cyber/cybersecurity-squirrel.png %}"
+        alt="The Programming Squirrel Logo">
+      <p class="tagline">Break barriers. Unlock your cybersecurity career
+        potential.</p>
+      <a href="#about" class="cta-button">Learn More<i
+          class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
@@ -19,10 +23,23 @@ title: The Programming Squirrel Landing Page
     <div class="container">
       <h2>About Us</h2>
       <p>
-        Welcome to The-Programming-Squirrel, your trusted partner in navigating the exciting world of cybersecurity! Founded by Nyki Anderson, our mission is to empower beginners and women aspiring to break into the cybersecurity industry. We understand the unique challenges faced by newcomers, especially women, in this dynamic field. That’s why we provide comprehensive certification study guides and educational materials designed to simplify complex concepts, build confidence, and set you up for success in your cybersecurity journey.
+        Welcome to The-Programming-Squirrel, your trusted partner in navigating
+        the exciting world of cybersecurity! Founded by Nyki Anderson, our
+        mission is to empower beginners and women aspiring to break into the
+        cybersecurity industry. We understand the unique challenges faced by
+        newcomers, especially women, in this dynamic field. That’s why we
+        provide comprehensive certification study guides and educational
+        materials designed to simplify complex concepts, build confidence, and
+        set you up for success in your cybersecurity journey.
       </p>
       <p>
-        At The-Programming-Squirrel, we believe that advocacy and outreach can inspire a new generation of women to pursue rewarding careers in cybersecurity. Through relatable content, practical resources, and a supportive community, we aim to create a welcoming space where everyone—regardless of background—feels encouraged to learn, grow, and thrive. Join us as we work to make cybersecurity accessible, inclusive, and empowering for all.
+        At The-Programming-Squirrel, we believe that advocacy and outreach can
+        inspire a new generation of women to pursue rewarding careers in
+        cybersecurity. Through relatable content, practical resources, and a
+        supportive community, we aim to create a welcoming space where
+        everyone—regardless of background—feels encouraged to learn, grow, and
+        thrive. Join us as we work to make cybersecurity accessible, inclusive,
+        and empowering for all.
       </p>
     </div>
   </section>
@@ -31,27 +48,36 @@ title: The Programming Squirrel Landing Page
   <section id="resources" class="resources">
     <div class="container">
       <h2>Our Resources</h2>
-      <p>The-Programming-Squirrel is your gateway to cybersecurity success. With expert advice, beginner-friendly tutorials, and a supportive community, we help women and students overcome challenges, gain confidence, and build careers in this dynamic field. Join us to unlock opportunities, enhance skills, and thrive in the high-stakes world of cybersecurity.
+      <p>The-Programming-Squirrel is your gateway to cybersecurity success. With
+        expert advice, beginner-friendly tutorials, and a supportive community,
+        we help women and students overcome challenges, gain confidence, and
+        build careers in this dynamic field. Join us to unlock opportunities,
+        enhance skills, and thrive in the high-stakes world of cybersecurity.
       </p>
 
       <div class="resource-cards">
         <div class="card">
           <div class="flag"><strong>Coming Soon!</strong></div>
           <h6>Burp Suite Practitioner’s Study Guide</h6>
-          <img src = "{{ '/assets/icons/burp.svg' | relative_url }}" alt="Burp Suite Logo">
-          <p>Interactive labs with tutorials to help you ace your certification exam.</p>
+          <img src="{% link assets/icons/burp.svg %}" alt="Burp Suite Logo">
+          <p>Interactive labs with tutorials to help you ace your certification
+            exam.</p>
         </div>
         <div class="card">
           <div class="flag"><strong>Coming Soon!</strong></div>
           <h6>CompTIA Security+ Resources</h6>
-          <img src = "{{ '/assets/icons/comptia.svg' | relative_url }}" alt="CompTIA Security+ Logo">
-          <p>Comprehensive notes, quizzes, and cheat sheets for your study journey.</p>
+          <img src="{% link assets/icons/comptia.svg %}"
+            alt="CompTIA Security+ Logo">
+          <p>Comprehensive notes, quizzes, and cheat sheets for your study
+            journey.</p>
         </div>
         <div class="card">
           <div class="flag"><strong>Coming Soon!</strong></div>
           <h6>Dockerized Kali Linux Guide</h6>
-          <img src = "{{ '/assets/icons/kali.svg' | relative_url }}" alt="Dockerized Kali Linux Logo">
-          <p>Hands-on exercises using Docker containers to simulate ethical hacking.</p>
+          <img src="{% link assets/icons/kali.svg %}"
+            alt="Dockerized Kali Linux Logo">
+          <p>Hands-on exercises using Docker containers to simulate ethical
+            hacking.</p>
         </div>
       </div>
     </div>
@@ -61,19 +87,23 @@ title: The Programming Squirrel Landing Page
   <section id="community" class="community">
     <div class="container">
       <h2>Find Community</h2>
-      <img src="{{ '/assets/images/cyber-community.jpg' | relative_url }}" alt="An inclusive group sharing cybersecurity knowledge">
+      <img src="{% link assets/categories/cyber/cyber-community.jpg %}"
+        alt="An inclusive group sharing cybersecurity knowledge">
       <p>
-        Be part of a growing network of cybersecurity enthusiasts, learners, and professionals. 
-        Share your journey, collaborate on projects, and celebrate milestones together!
+        Be part of a growing network of cybersecurity enthusiasts, learners, and
+        professionals.
+        Share your journey, collaborate on projects, and celebrate milestones
+        together!
       </p>
-      <a href="/community/" class="cta-button">Explore Our Community <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
   <!-- Newsletter Section -->
   <section id="newsletter" class="newsletter">
     <div class="container">
-      <iframe src="https://forms.monday.com/forms/embed/871a6679d20582c3242777bde53951bc?r=use1" width="700" height="500" title="Subscribe to Newsletter"></iframe>
+      <iframe
+        src="https://forms.monday.com/forms/embed/871a6679d20582c3242777bde53951bc?r=use1"
+        width="700" height="500" title="Subscribe to Newsletter"></iframe>
     </div>
   </section>
 </div>

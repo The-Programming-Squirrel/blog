@@ -1,5 +1,6 @@
 ---
 permalink: /cookie-policy/
+slug: legal-docs-cookie-policy
 fmContentType: default
 layout: page
 title: "Legal Docs: The Cookie Policy"
@@ -11,15 +12,14 @@ author:
      fieldGroup: author
 description: Understand our Cookie Policy to enhance your privacy and browsing experience on The Programming Squirrel website.
 date: Jan 20, 2025, 8:08:23 AM
-last_mod: Jan 20, 2025, 5:33:15 AM
-slug: cookie-policy-explained-programming-squirrel
+last_mod: Jan 20, 2025, 7:20:58 PM
 keywords:
    - Cookie Policy
    - Essential Cookies
    - Functionality Cookies
 categories:
    - Legal Documents
-preview: /images/previews/cookie-policy-preview.jpg
+preview: /previews/cookie-policy-preview.jpg
 draft: published
 ---
 *Last updated: January 19th, 2025*

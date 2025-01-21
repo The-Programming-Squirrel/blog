@@ -1,15 +1,19 @@
 ---
-permalink: /404.html
-layout: default
+permalink: /404.html/
+layout: page
 ---
 <div class="error-page">
   <div class="container">
     <header>
-      <img src="/assets/images/logos/logo-192x192.png" alt="The Programming Squirrel Logo" class="logo">
+      {% assign logo = site.data.logos.dark-192x192 %}
+      {% if logo %}
+      <img src="{% link {{ logo.src }} %}" alt="{{ logo.alt }}" class="logo">
+      {% endif %}
       <h1>404</h1>
     </header>
     <h1><strong>Oops! Something went wrong.</strong></h1>
-    <p class="message">It looks like the page you’re looking for has gone on a little squirrelly adventure and is no longer here 🐿️
+    <p class="message">It looks like the page you’re looking for has gone on a
+      little squirrelly adventure and is no longer here 🐿️
     </p>
   </div>
 </div>

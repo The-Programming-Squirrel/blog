@@ -1,5 +1,6 @@
 ---
 permalink: /terms-conditions/
+slug: legal-docs-terms-conditions
 fmContentType: default
 layout: page
 title: "Legal Docs: The Terms & Conditions"
@@ -11,8 +12,7 @@ author:
     fieldGroup: author
 description: Understand the Terms & Conditions for using The-Programming-Squirrel website and ensure a safe and compliant experience.
 date: Jan 20, 2025, 7:46:20 AM
-last_mod: Jan 20, 2025, 5:34:09 AM
-slug: "{{date|YYYY-MM-DD}}-{(seoTitle}}"
+last_mod: Jan 20, 2025, 7:02:09 PM
 keywords:
   - Terms and Conditions
   - Website Terms of Use
@@ -21,7 +21,7 @@ categories:
   - Legal Documents
 meta-title: null
 meta-description: null
-preview: /images/previews/terms-conditions-preview.jpg
+preview: /previews/terms-conditions-preview.jpg
 draft: published
 ---
 **Effective Date: January 13, 2025**

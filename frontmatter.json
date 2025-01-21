@@ -2,7 +2,7 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "title": "Frontmatter Team Setting",
   "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.publicFolder": "/assets",
   "frontMatter.preview.host": "http://localhost:1344",
   "frontMatter.git.enabled": true,
   "frontMatter.git.requiresCommitMessage": [
@@ -15,12 +15,12 @@
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.content.pageFolders": [
     {
-      "title": "Blog posts",
-      "path": "[[workspace]]/_posts"
+      "title": "Blog Articles",
+      "path": "[[workspace]]/_posts/"
     },
     {
-      "title": "Drafts",
-      "path": "[[workspace]]/_drafts"
+      "title": "In-Progress Drafts",
+      "path": "[[workspace]]/_drafts/"
     }
   ],
   "frontMatter.taxonomy.fieldGroups": [
@@ -320,10 +320,18 @@
         "frontMatter.content.pageFolders": [
           {
             "title": "Blog Articles",
-            "path": "[[workspace]]/_posts"
+            "path": "[[workspace]]/_posts/"
+          },
+          {
+            "title": "In-Progress Drafts",
+            "path": "[[workspace]]/_drafts/"
+          },
+          {
+            "title": "Legal Documents",
+            "path": "[[workspace]]/_pages/legal-docs"
           }
         ],
-        "frontMatter.content.publicFolder": "[[workspace]]/assets"
+        "frontMatter.content.publicFolder": "[[workspace]]/assets/"
       }
     },
     {
@@ -331,13 +339,24 @@
       "configuration": {
         "frontmatter.content.pageFolders": [
           {
-            "title": "Portfolio Showcase",
-            "path": "[[workspace]]/_projects"
+            "title": "Technical Portfolio Showcase",
+            "path": "[[workspace]]/_projects/"
           }
         ],
-        "frontMatter.content.publicFolder": "[[workspace]]/assets"
+        "frontMatter.content.publicFolder": "[[workspace]]/assets/"
       }
     }
   ],
-  "frontMatter.dashboard.openOnStart": true
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.snippets": {
+    "Add Figure": {
+      "description": "Inserts figure with Markdown image syntax that has both a caption and a label attribute as well as optional class attribute.",
+      "body": [
+        "{% figure caption: \"\" label: class: \"fig-container\" %}",
+        "![]()",
+        "{% endfigure %}"
+      ],
+      "fields": []
+    }
+  }
 }

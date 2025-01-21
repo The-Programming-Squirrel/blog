@@ -1,0 +1,23 @@
+dark-512x512:
+  src: assets/logos/logo-512x512.png
+  alt: The-Programming-Squirrel logo with squirrel navy background (512x512px)
+
+dark-192x192:
+  src: assets/logos/logo-192x192.png
+  alt: The-Programming-Squirrel logo with squirrel navy background (192x192px)
+ 
+dark-128x128:
+  src: assets/logos/logo-128x128.png
+  alt: The-Programming-Squirrel logo with squirrel navy background (128x128px)
+
+squirrel-purple:
+  src: assets/logos/logo-squirrel-purple.png
+  alt: The-Programming-Squirrel logo with squirrel purple background
+
+squirrel-rose:
+  src: assets/logos/logo-squirrel-rose.png
+  alt: The-Programming-Squirrel logo with squirrel rose background
+
+squirrel-mono:
+  src: assets/logos/logo-mono.png
+  alt: The-Programming-Squirrel logo with mono background

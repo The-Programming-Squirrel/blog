@@ -10,18 +10,23 @@
     <div class="footer-links">
       <h5>Quick Links</h5>
       <ul>
-        <li><a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a></li>
-        <li><a href="{{ '/terms-and-conditions/' | relative_url }}">Terms & Conditions</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
+        {% for item in site.data.resources.footer-links %}
+        {% if item %}
+        <li><a href="{% link {{ item.dir }} %}">{{ item.title }}</a></li>
+        {% endif %}
+        {% endfor %}
       </ul>
     </div>
 
     <!-- Footer Branding -->
+    {% assign logo = site.data.logos.dark-192x192 %}
+    {% if logo %}
     <div class="footer-branding">
-      <a href="{{ '/' | relative_url }}" class="footer-logo">
-        <img src="{{ '/assets/images/logos/logo-purple.png' | relative_url }}" alt="The Programming Squirrel Logo">
-      </a>
-      <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All rights reserved.</p>
+      <a href="{% link index.html %}" class="footer-logo">
+        <img src="{% link {{ logo.src }} %}" alt="{{ logo.alt }}"></a>
+      {% endif %}
+      <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All
+        rights reserved.</p>
     </div>
   </div>
 </footer>

@@ -1,0 +1,10 @@
+- term: CVE (Common Vulnerabilities and Exposures)
+  definition:  In cybersecurity, CVE is a publicly disclosed database that tracks known security vulnerabilities and exposures in software, hardware, and firmware. Each CVE entry is assigned a unique identifier to help security professionals and organizations quickly reference and address these issues.
+- term: Cybercrimes
+  definition: Cybercrimes are illegal activities that involve the use of computers, networks, or digital devices to commit crimes. These offenses are typically perpetrated online or through digital means, and they can target individuals, organizations, or governments. Cybercrimes range from non-violent crimes such as data theft to more serious offenses like hacking or cyberterrorism.
+- term: NIST
+  definition: National Institute of Standards and Technology.
+- term: PII (Personally Identifiable Information)
+  definition: In the context of cybersecurity, PII refers to any data that can be used to identify an individual, either directly or when combined with other information. Protecting PII is crucial to safeguarding privacy and preventing identity theft, fraud, or unauthorized access.
+- term: Zero-day vulnerability
+  definition: A zero-day is a security flaw or weakness in software, hardware, or firmware that is unknown to the vendor or developer, making it vulnerable to exploitation by attackers before a fix or patch is released. The term “zero-day” refers to the fact that the vendor has “zero days” to fix the vulnerability because they are unaware of it, and thus there is no protection available when the vulnerability is first discovered.

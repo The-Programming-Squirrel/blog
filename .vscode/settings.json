@@ -1,7 +1,7 @@
 {
 	"markdownlint.config": {
 		"MD036": false,
-		"SRT00": true
+		"MD033": false
 	},
 	"[markdown]": {
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
