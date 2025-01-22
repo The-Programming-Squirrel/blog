@@ -7,6 +7,8 @@ layout: default
     <p class="post-meta">
       Published on {{ page.date | date: '%B %d, %Y' }} by
       {{ page.author.name | default: site.author.name }}
+      <img
+        src="{% link {{ page.author.avatar | default: site.author.avatar | image_url }} %}">
     </p>
     <div class="post-content">
       {{ content }}

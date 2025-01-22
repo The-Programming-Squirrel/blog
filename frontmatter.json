@@ -2,7 +2,7 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "title": "Frontmatter Team Setting",
   "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "/assets",
+  "frontMatter.content.publicFolder": "[[workspace]]/assets/",
   "frontMatter.preview.host": "http://localhost:1344",
   "frontMatter.git.enabled": true,
   "frontMatter.git.requiresCommitMessage": [
@@ -21,6 +21,18 @@
     {
       "title": "In-Progress Drafts",
       "path": "[[workspace]]/_drafts/"
+    },
+    {
+      "title": "Legal Documents",
+      "path": "[[workspace]]/legal-docs/"
+    },
+    {
+      "title": "Blog Directory",
+      "path": "[[workspace]]/blog"
+    },
+    {
+      "title": "Site Pages",
+      "path": "[[workspace]]/pages"
     }
   ],
   "frontMatter.taxonomy.fieldGroups": [
@@ -50,7 +62,7 @@
           "type": "image",
           "single": true,
           "description": "A URL linking to the author's profile image or avatar.",
-          "default": "/images/avatar.png"
+          "default": "icons/avatar.png"
         },
         {
           "title": "Email Address",
@@ -66,9 +78,9 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "previewPath": "[[workspace]]/assets/images/previews/",
+      "previewPath": "/assets/",
       "pageBundle": false,
-      "template": "[[workspace]]/frontmatter/templates/default.md",
+      "template": "/frontmatter/templates/default.md",
       "fields": [
         {
           "title": "Permalink",
@@ -172,7 +184,7 @@
   ],
   "frontMatter.media.contentTypes": [
     {
-      "name": "default",
+      "name": "image",
       "fileTypes": [
         "png",
         "jpg",
@@ -198,9 +210,14 @@
       ]
     }
   ],
-  "frontMatter.data.types": [
+  "frontMatter.data.files": [
     {
       "id": "social-media",
+      "title": "Social Media Link Data",
+      "file": "[[workspace]]/_data/social-media.yml",
+      "fileType": "yaml",
+      "labelField": "platform",
+      "singleEntry": false,
       "schema": {
         "title": "Social Media",
         "type": "object",
@@ -235,7 +252,13 @@
       }
     },
     {
-      "id": "menus",
+      "id": "resources",
+      "title": "Lists of Link Resources",
+      "file": "[[workspace]]/_data/resources.yml",
+      "fileType": "yaml",
+      "labelField": "menu",
+      "singleEntry": false,
+      "type": "object",
       "schema": {
         "title": "Menu Links",
         "type": "object",
@@ -277,6 +300,11 @@
     },
     {
       "id": "callouts",
+      "title": "Custom Callout Data",
+      "file": "[[workspace]]/_data/callouts.yml",
+      "fileType": "yaml",
+      "singleEntry": false,
+      "type": "object",
       "schema": {
         "title": "Custom Callouts",
         "type": "object",
@@ -310,6 +338,30 @@
           }
         }
       }
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary of Terms",
+      "file": "[[workspace]]/_data/glossary.yml",
+      "fileType": "yaml",
+      "singleEntry": false,
+      "schema": {
+        "type": "object",
+        "required": [
+          "term",
+          "definition"
+        ],
+        "properties": {
+          "term": {
+            "type": "string",
+            "title": "Term Defined"
+          },
+          "definition": {
+            "type": "string",
+            "title": "Definition of Term"
+          }
+        }
+      }
     }
   ],
   "frontMatter.projects": [
@@ -328,7 +380,11 @@
           },
           {
             "title": "Legal Documents",
-            "path": "[[workspace]]/_pages/legal-docs"
+            "path": "[[workspace]]/legal-docs/"
+          },
+          {
+            "title": "Blog Directory",
+            "path": "[[workspace]]/blog/"
           }
         ],
         "frontMatter.content.publicFolder": "[[workspace]]/assets/"

@@ -7,7 +7,7 @@ title: "Legal Docs: The Cookie Policy"
 author:
    - name: Nyki Anderson
      title: Lead Cybersecurity Architect & Founder
-     avatar: /images/avatar.png
+     avatar: /assets/icons/avatar.png
      email: nyki@the-programming-squirrel.com
      fieldGroup: author
 description: Understand our Cookie Policy to enhance your privacy and browsing experience on The Programming Squirrel website.
@@ -19,7 +19,7 @@ keywords:
    - Functionality Cookies
 categories:
    - Legal Documents
-preview: /previews/cookie-policy-preview.jpg
+preview: cookie-policy-preview.jpg
 draft: published
 ---
 *Last updated: January 19th, 2025*

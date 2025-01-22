@@ -12,5 +12,5 @@ keywords:
   - cybersecurity tools
   - cybersecurity guides
 draft: published
-preview: /previews/blog-home.png
+preview: previews/blog-home.png
 ---

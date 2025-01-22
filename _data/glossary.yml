@@ -1,9 +1,21 @@
+- term: Chief Information Security Officer (CISO)
+  definition: The CISO ensures that data integrity and confidentiality are maintained, reputation risks are minimized by preventing breaches, regulatory penalties are avoided through compliance, and the organization is prepared to face evolving cyber threats.
 - term: CVE (Common Vulnerabilities and Exposures)
   definition:  In cybersecurity, CVE is a publicly disclosed database that tracks known security vulnerabilities and exposures in software, hardware, and firmware. Each CVE entry is assigned a unique identifier to help security professionals and organizations quickly reference and address these issues.
 - term: Cybercrimes
   definition: Cybercrimes are illegal activities that involve the use of computers, networks, or digital devices to commit crimes. These offenses are typically perpetrated online or through digital means, and they can target individuals, organizations, or governments. Cybercrimes range from non-violent crimes such as data theft to more serious offenses like hacking or cyberterrorism.
+- term: Cybersecurity Analyst
+  definition: Responsible for protecting an organization’s systems, networks, and data from cyber threats. They monitor for suspicious activity, analyze security risks, and implement measures to prevent, detect, and respond to cyberattacks. Cybersecurity Analysts often work as part of a larger security team, supporting the organization’s overall cybersecurity strategy.
+- term: HIPAA (Health Insurance Portabililty and Accountability Act)
+  definition: HIPAA is a U.S. law designed to protect the privacy and security of individuals’ health information. From a cybersecurity standpoint, HIPAA establishes standards and regulations that health-related organizations must follow to safeguard Protected Health Information (PHI) from unauthorized access, breaches, and misuse.
+- term: Information Security Manager
+  definition: The Information Security Manager ensures effective implementation of security policies, proactive risk identification and mitigation, prompt response to incidents to minimize impact, and continuous alignment of security efforts with business goals.
 - term: NIST
   definition: National Institute of Standards and Technology.
+- term: OpSec (Operational Security)
+  definition:  A systematic process used to identify and protect sensitive information from being accessed or exploited by adversaries. Originally developed by the U.S. military, OPSEC is now widely used across various industries to safeguard critical information and minimize vulnerabilities.
+- term: Penetration Tester (Pentester)
+  definition: A cybersecurity professional responsible for simulating cyberattacks to identify vulnerabilities in an organization’s systems, networks, and applications. Pen Testers use ethical hacking techniques to assess security controls and provide actionable recommendations to improve defenses.
 - term: PII (Personally Identifiable Information)
   definition: In the context of cybersecurity, PII refers to any data that can be used to identify an individual, either directly or when combined with other information. Protecting PII is crucial to safeguarding privacy and preventing identity theft, fraud, or unauthorized access.
 - term: Zero-day vulnerability
