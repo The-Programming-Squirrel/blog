@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="container">
+  <h1>{{ page.meta-title }}</h1>
+
+  <div class="blog-feed">
+    {% for post in paginator.posts %}
+    <div class="container">
+      <article class="blog-post">
+        <img src="{% link {{ post.preview | prepend: '/assets/' }} %}"
+          alt="A preview image for the post.">
+        <div class="blog-post-content">
+          <h2 class="blog-post-title"><a
+              href="{{ post.url }}">{{ post.meta-title }}</a></h2>
+          <p class="blog-post-date">Published:
+            {{ post.date | date: "%B %d, %Y" }}
+          </p>
+          <p class="blog-post-description">Description:
+            {{ post.meta-description | strip_html | truncate: 150 }}
+          </p>
+          <p class="blog-post-categories">{{ post.categories | join: ", "}}</p>
+          <a href="{{ post.url }}" class="read-more">Read More <i
+              class="fa-solid fa-glasses"></i></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}">&laquo; Previous</a>
+  {% else %}
+  <span class="disabled">&laquo; Previous</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+  {% if page == paginator.page %}
+  <span class="current">{{ page }}</span>
+  {% else %}
+  <a href="{{ paginator.paginate_path | replace: ':num', page }}">{{ page }}</a>
+  {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}">Next &raquo;</a>
+  {% else %}
+  <span class="disabled">Next &raquo;</span>
+  {% endif %}
+</div>

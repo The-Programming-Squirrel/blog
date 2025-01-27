@@ -1,14 +1,14 @@
 navbar: 
   - blog:
-    dir: blog/index.md
+    dir: /blog/
     title: Blog
-    icon: fa-newspaper
+    icon: fa-file-lines
   - portfolio:
-    dir: portfolio/index.md
+    dir: /portfolio/
     title: Portfolio
     icon: fa-graduation-cap
   - contact:
-    dir: pages/contact.md
+    dir: /contact/
     title: Contact Us
     icon: fa-inbox
     
@@ -23,5 +23,5 @@ footer-links:
     dir: legal-docs/cookie-policy.md
     title: Cookie Policy
   - contact:
-    dir: pages/contact.md
+    dir: /contact/
     title: Contact Us

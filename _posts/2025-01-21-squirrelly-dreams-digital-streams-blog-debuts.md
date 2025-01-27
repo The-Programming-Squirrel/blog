@@ -1,10 +1,10 @@
 ---
-permalink: /blog/squirrelly-dreams-digital-streams-blog-debuts/
+permalink: /squirrelly-dreams-digital-streams-blog-debuts/
 slug: squirrelly-dreams-digital-streams-blog-debuts
 fmContentType: default
 layout: post
 meta-title: "From Squirrelly Dreams to Digital Streams: Our Blog Debuts"
-meta-description: Discover The-Programming-Squirrel’s debut blog post, where cybersecurity meets inclusivity. Explore expert insights, resources, and a community-driven mission to empower learners and professionals in the fast-paced tech world.
+meta-description: Discover The-Programming-Squirrel, your go-to source for engaging cybersecurity content, expert tips, and community support. Join us today!
 author:
   - name: Nyki Anderson
     title: Lead Cybersecurity Architect & Founder

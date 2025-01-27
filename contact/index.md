@@ -1,6 +1,7 @@
 ---
+permalink: /contact/
 layout: page
-title: Contact Us
+meta-title: Contact Us
 ---
 ## Our Philosophy
 

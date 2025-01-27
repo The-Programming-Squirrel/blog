@@ -5,13 +5,13 @@
     <a href="{% link index.html %}" class="logo"><img
         src="{% link {{ logo.src }} %}" alt="{{ logo.alt }}"></a>
     {% endif %}
-    <ul class="nav-links">
 
+    <ul class="nav-links">
       {% for item in site.data.resources.navbar %}
       {% if item %}
       <li>
-        <a href="{% link {{ item.dir }} %}" title="{{ item.title }}" {% if
-          page.url contains item.id %} class="active" {% endif %}>
+        <a href="{{ item.dir }}" title="{{ item.title }}" {% if page.url
+          contains {{ item.dir }} %} class="active" {% endif %}>
           <i class="fa-solid {{ item.icon }} fa-xl"></i> {{ item.title }}</a>
       </li>
       {% endif %}

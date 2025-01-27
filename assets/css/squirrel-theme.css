@@ -679,3 +679,130 @@ section {
 	font-family:var(--ui-font);
 	font-variant: small-caps;
 }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+
+.pagination a,
+.pagination span {
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #555;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #63959a; /* Example: teal accent color */
+  color: #fff;
+}
+
+.pagination .current {
+  background-color: #833563; /* Example: purple accent color */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.pagination .disabled {
+  color: #aaa;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* General Blog Feed Container */
+.blog-feed {
+  display: flex;
+  flex-wrap: wrap;
+	flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--text-color); /* Light background */
+}
+
+/* Individual Blog Post Card */
+.blog-post {
+  background-color: var(--background-color);
+  border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+	box-shadow: 
+	0px 0px 5px #fff,    /* Soft glow around the text */
+	0px 0px 10px #fff,   /* Brighter glow */
+	0px 0px 10px var(--accent-color), /* Outer glow with a colored hue */
+	0px 0px 20px var(--accent-color), /* Farther outer glow for depth */
+	0px 0px 30px var(--accent-color) !important; /* Final layer of glowing depth */
+}
+
+/* Blog Post Image */
+.blog-post img {
+  width: 85%;
+  height: auto;
+  display: block;
+	margin: auto;
+}
+
+/* Blog Post Content */
+.blog-post-content {
+  padding: 1.5rem;
+	font-size: 16px;
+}
+
+.blog-post-title {
+  margin: 0 0 1rem;
+}
+
+.blog-post-title a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.blog-post-title a:hover {
+  color: var(--secondary-color); /* Example: teal accent color */
+}
+
+.blog-post-date {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.blog-post-description {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Read More Button */
+.read-more {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #833563; /* Example: purple accent color */
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #722e55; /* Slightly darker purple */
+}

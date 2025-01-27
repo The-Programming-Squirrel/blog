@@ -13,6 +13,12 @@
   "frontMatter.taxonomy.dateFormat": "PPpp",
   "frontMatter.content.wysiwyg": false,
   "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.dashboard.content.pagination": true,
+  "frontMatter.taxonomy.seoDescriptionField": "meta-description",
+  "frontMatter.taxonomy.seoTitleField": "meta-title",
+  "frontMatter.dashboard.content.card.fields.title": "meta-title",
+  "frontMatter.dashboard.content.card.fields.description": "meta-description",
+  "frontMatter.templates.enabled": true,
   "frontMatter.content.pageFolders": [
     {
       "title": "Blog Articles",
@@ -28,11 +34,11 @@
     },
     {
       "title": "Blog Directory",
-      "path": "[[workspace]]/blog"
+      "path": "[[workspace]]/blog/"
     },
     {
-      "title": "Site Pages",
-      "path": "[[workspace]]/pages"
+      "title": "Contact Us",
+      "path": "[[workspace]]/contact"
     }
   ],
   "frontMatter.taxonomy.fieldGroups": [
@@ -62,7 +68,7 @@
           "type": "image",
           "single": true,
           "description": "A URL linking to the author's profile image or avatar.",
-          "default": "/avatars/avatar-white-buttonup.pngg"
+          "default": "/avatars/avatar-white-buttonup.png"
         },
         {
           "title": "Email Address",
@@ -385,6 +391,10 @@
           {
             "title": "Blog Directory",
             "path": "[[workspace]]/blog/"
+          },
+          {
+            "title": "Contact Us Page",
+            "path": "[[workspace]]/contact/"
           }
         ],
         "frontMatter.content.publicFolder": "[[workspace]]/assets/"
@@ -399,7 +409,7 @@
             "path": "[[workspace]]/_projects/"
           }
         ],
-        "frontMatter.content.publicFolder": "[[workspace]]/assets/"
+        "frontMatter.content.publicFolder": "[[workspace]]/assets/portfolio/"
       }
     }
   ],

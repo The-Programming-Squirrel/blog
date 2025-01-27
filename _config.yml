@@ -5,6 +5,7 @@ description: >
 keywords: ["The Programming Squirrel, cybersecurity, cybersecurity education, cybersecurity tutorials, Burp Suite guide, CompTIA Security+, Kali Linux, ethical hacking, cybersecurity resources, diversity in tech, women in cybersecurity, cybersecurity community, online cybersecurity learning, cybersecurity certification, cybersecurity tips, cybersecurity study guides, cybersecurity quizzes, cybersecurity cheat sheets, beginner cybersecurity, intermediate cybersecurity, cybersecurity blog, cybersecurity tools, cybersecurity career, cybersecurity training, cybersecurity empowerment, ethical hacking tutorials, cybersecurity study notes, tech for everyone, programming squirrel, inclusive cybersecurity"]
 baseurl: ""
 url: "https://the-programming-squirrel.com" 
+permalink: pretty
 theme: jekyll-squirrel-theme
 
 # Author Details
@@ -39,6 +40,6 @@ jekyll-figure:
 
 pagination:
   enabled: true
-  debug: true
-  per-page: 5
-  permalink: "/page/:num/"
+  path: "/blog/page:num/"
+  per_page: 5
+  limit: 0
