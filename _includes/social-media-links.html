@@ -4,14 +4,16 @@
     <ul>
       {% assign sm = site.data.social-media %}
       {% for entry in sm %}
-          {% assign key = entry | first %}
-          {% if sm[key].id %}
-            <li>
-              <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa-2xl fa {{ sm[key].fa-icon }}"></i></a>
-            </li>
-          {% endif %}
+      {% assign key = entry | first %}
+      {% if sm[key].id %}
+      <li>
+        <a href="{{ sm[key].href }}{{ sm[key].id }}"
+          title="{{ sm[key].title }}"><i
+            class="fa-2xl fa {{ sm[key].fa-icon }} social-media-link"></i></a>
+      </li>
+      {% endif %}
       {% endfor %}
     </ul>
-  </div>  
+  </div>
 </div>
 {% endif %}

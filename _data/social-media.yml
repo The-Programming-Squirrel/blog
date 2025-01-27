@@ -5,37 +5,37 @@ email:
   fa-icon: "fa-solid fa-envelope"
 
 github:
-  id: "the-programming-squirrel"
-  href: "www.github.com/"
+  id: "The-Programming-Squirrel"
+  href: "https://github.com/"
   title: "GitHub"
   fa-icon: "fa-brands fa-github"
 
 patreon:
   id: "TheProgrammingSquirrel"
-  href: "www.patreon.com/"
+  href: "https://patreon.com/"
   title: "Patreon"
   fa-icon: "fa-brands fa-patreon"
 
 x:
   id: "ProgramSquirrel"
-  href: "www.x.com/"
+  href: "https://x.com/"
   title: "X"
   fa-icon: "fa-brands fa-x"
 
 facebook:
   id: "TheProgrammingSquirrel"
-  href: "www.facebook.com/"
+  href: "https://facebook.com/"
   title: "Facebook"
   fa-icon: "fa-brands fa-facebook"
 
 reddit:
   id: "Programming-Squirrel"
-  href: "www.reddit.com/user/"
+  href: "https://reddit.com/user/"
   title: "Reddit"
   fa-icon: "fa-brands fa-reddit"
 
 discord:
   id: "KyQbWaExdt"
-  href: "discord.com/invite/"
+  href: "https://discord.com/invite/"
   title: "Discord"
   fa-icon: "fa-brands fa-discord"

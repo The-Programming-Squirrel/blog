@@ -101,6 +101,7 @@ a[href^="/"],
 a[href^="./"], 
 a[href^="../"],
 a[href^="#"],
+a[href^="mailto:nyki"],
 a[href^="https://the-programming-squirrel.com"] {
 	color: var(--primary-color);
 	text-decoration: none;
@@ -136,7 +137,7 @@ a:hover {
 }
 
 .post-author:hover {
-	color: var(--secondary-color);
+	color: var(--text-color);
 }
 
 .post-author-avatar {
@@ -148,7 +149,6 @@ a:hover {
 .post-author-name {
 	padding-left: 1rem;
 	font-size: 20px;
-	color: var(--accent-color);
 }
 
 figure {
@@ -272,13 +272,16 @@ button:hover,
 }
 
 .main-navigation .container {
+	height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+	align-content: center;
+
 }
 
 .main-navigation .logo img {
-  width: 50%;
+  width: 30%;
   height: auto;
 	border-radius: 5px;
 }
@@ -363,7 +366,7 @@ section {
 .resource-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
   justify-content: center;
   margin-top: 2rem;
 }
@@ -394,7 +397,7 @@ section {
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
-  width: 300px;
+  width: 25%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -496,17 +499,19 @@ section {
 	margin: 0;
 }
 
-.social-media a {
-	color: var(--secondary-color) !important;
+.social-media-link {
+	color: var(--secondary-color);
 }
 
-.social-media a:hover {
+.social-media-link:hover {
+	color: var(--accent-color);
 	text-shadow: 
 	0px 0px 5px #fff,    /* Soft glow around the text */
 	0px 0px 10px #fff,   /* Brighter glow */
 	0px 0px 10px var(--accent-color), /* Outer glow with a colored hue */
 	0px 0px 20px var(--accent-color), /* Farther outer glow for depth */
 	0px 0px 30px var(--accent-color); /* Final layer of glowing depth */
+	transition: color 0.3s, color 0.3s;
 }
 
 /* Footer Navigation */

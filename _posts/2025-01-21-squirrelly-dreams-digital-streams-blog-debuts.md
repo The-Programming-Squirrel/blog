@@ -157,7 +157,7 @@ The-Programming-Squirrel was founded by cybersecurity enthusiast Nyki Anderson, 
 
 Plus, we do it in *style*. A unique blend of playful yet professional and our brand's dedication to building a community of learners and professionals, The-Programming-Squirrel has that winning mix. You are inundated by heavy, overly technical blogs, isn't it time you opted for a youthful and fresh take on the subject?
 
-{% figure caption: "Avatar of Nyki, working diligently to end cybersecurity gatekeeping (Source: The-Programming-Squirrel Team & Canva Dream Lab)." label:analyst class: "fig-container" %}
+{% figure caption: "*Avatar of Nyki, working diligently to end cybersecurity gatekeeping (Source: The-Programming-Squirrel Team & Canva Dream Lab).*" label:analyst class: "fig-container" %}
 ![Female Programmer With Blonde Hair Working Intently on a Laptop in a Modern Office Environment](/assets/avatars/female-programmer-blonde.png)
 {% endfigure %}
 
@@ -169,7 +169,7 @@ What started as tutoring in math for work study soon became a private venture wh
 
 In cyber, it's all about accessibility and often, who you know. So the community aspects cannot be overlooked here. With a budding following on Discord and a social media presence on several popular platforms, there's a space for everybody at this table. Hosting discussions, special live events, challenges and labs, study groups, and so much more, The-Programming-Squirrel and it's brand are both a trusted source for cyber resources and a candid forum for authentic discourse. Join us as we break down barriers, empower ourselves and other to succeed in the cyber industry, and overall \#win at life!
 
-{% figure caption: "At The-Programming-Squirrel, we want you to be the most confident human possible. Join our community of inspiring and dedicated cyber professionals to reach for your personal best. (Source: The-Programming-Squirrel Team & Canva Dream Lab)" label:conference class: "fig-container" %}
+{% figure caption: "*At The-Programming-Squirrel, we want you to be the most confident human possible. Join our community of inspiring and dedicated cyber professionals to reach for your personal best. (Source: The-Programming-Squirrel Team & Canva Dream Lab)*" label:conference class: "fig-container" %}
 ![A blonde cyber professional at a technical conference holding an iPad and smiling confidently.](/assets/avatars/female-programmer-conference.jpg)
 {% endfigure %}
 
