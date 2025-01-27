@@ -24,7 +24,7 @@ draft: published
 ---
 *Effective Date: January 13, 2025*
 
-The-Programming-Squirrel ("we," "our," or "us") values your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, store, share, and protect your information when you visit our website, the-programming-squirrel.com (the "Website"). It also explains your rights and how to exercise them.
+The Programming Squirrel ("we," "our," or "us") values your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, store, share, and protect your information when you visit our website, the-programming-squirrel.com (the "Website"). It also explains your rights and how to exercise them.
 
 By using our Website, you agree to the collection and use of information in accordance with this Privacy Policy. If you have any questions or concerns, you can contact us at [nyki@the-programming-squirrel.com](mailto:nyki@the-programming-squirrel.com).
 
@@ -33,7 +33,7 @@ By using our Website, you agree to the collection and use of information in acco
 ## 1. Data Controller
 
 The data controller responsible for your personal data is:  
-**The-Programming-Squirrel**  
+**The Programming Squirrel**  
 Email: [nyki@the-programming-squirrel.com](mailto:nyki@the-programming-squirrel.com)
 
 ---
@@ -137,7 +137,7 @@ If you are located outside the United States, please note that your personal dat
 
 ## 10. Children’s Privacy
 
-The-Programming-Squirrel does not knowingly collect personal data from individuals under 16. If you believe a child has provided personal data, please contact us immediately.
+The Programming Squirrel does not knowingly collect personal data from individuals under 16. If you believe a child has provided personal data, please contact us immediately.
 
 ---
 
@@ -153,4 +153,4 @@ If you have any questions or concerns about this Privacy Policy or our data prac
 
 Email: [nyki@the-programming-squirrel.com](mailto:nyki@the-programming-squirrel.com)
 
-Thank you for trusting The-Programming-Squirrel with your personal data!
+Thank you for trusting The Programming Squirrel with your personal data!

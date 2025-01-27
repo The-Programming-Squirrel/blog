@@ -12,6 +12,12 @@
   <meta name="author" content="{{ site.author.name }}">
   <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
   <title>{{ page.meta-title | default: site.title }}</title>
+  <!-- Open Graph Metadata-->
+  <meta property="og:title" content="{{ page.meta-title }}">
+  <meta property="og:description" content="{{ page.excerpt }}">
+  <meta property="og:image"
+    content="{{ page.preview | prepend: '/assets/' | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60"
@@ -48,7 +54,7 @@
   <link rel="stylesheet" href="/assets/css/jekyll-glossary-tooltip.css">
   <!-- Fonts -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
     rel="stylesheet" />
   <!-- Icons -->
   <script src="https://kit.fontawesome.com/6c52b5ed18.js"

@@ -5,13 +5,13 @@ layout: null
 <rss version="2.0">
     <channel>
         <title>{{ site.title }}</title>
-        <link>{{ site.url }}/blog/</link>
+        <link>{{ site.url | append: '/blog/'}}</link>
         <description>{{ site.description }}</description>
         <language>en-us</language>
         {% for post in site.posts %}
         <item>
             <title>{{ post.title }}</title>
-            <link>{{ site.url }}/blog{{ post.permalink }}</link>
+            <link>{{ site.url }}{{ post.permalink }}</link>
             <description>{{ post.excerpt | strip_html }}</description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         </item>

@@ -1,8 +1,25 @@
-title: The-Programming-Squirrel
-tagline: "Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More!"
+title: The Programming Squirrel
+tagline: "Learn, Hack, Thrive: Cybersecurity Made Inclusive."
 description: >
-  Empowering Beginners and Women in Cybersecurity with Tutorials, Study Guides, and More.
-keywords: ["The Programming Squirrel, cybersecurity, cybersecurity education, cybersecurity tutorials, Burp Suite guide, CompTIA Security+, Kali Linux, ethical hacking, cybersecurity resources, diversity in tech, women in cybersecurity, cybersecurity community, online cybersecurity learning, cybersecurity certification, cybersecurity tips, cybersecurity study guides, cybersecurity quizzes, cybersecurity cheat sheets, beginner cybersecurity, intermediate cybersecurity, cybersecurity blog, cybersecurity tools, cybersecurity career, cybersecurity training, cybersecurity empowerment, ethical hacking tutorials, cybersecurity study notes, tech for everyone, programming squirrel, inclusive cybersecurity"]
+  Empowering cybersecurity learners with tutorials, guides, and an inclusive tech community.
+keywords: [
+  "cybersecurity",
+  "ethical hacking",
+  "penetration testing",
+  "tech tutorials",
+  "women in tech",
+  "cybersecurity resources",
+  "tech trends",
+  "programming tutorials",
+  "burp suite",
+  "comptia security+",
+  "kali linux",
+  "owasp zap",
+  "cybersecurity certification",
+  "python for hacking",
+  "diversity in tech",
+  "digital security blog"
+]
 baseurl: ""
 url: "https://the-programming-squirrel.com" 
 permalink: pretty
@@ -13,7 +30,7 @@ author:
   name: Nyki Anderson
   avatar: /assets/avatars/avatar-white-buttonup.png
   bio: >
-    Passionate cybersecurity advocate, empowering women & beginners with fun, accessible resources to crack the code & thrive in the field! 
+    Nyki Anderson, founder of The Programming Squirrel, is a cybersecurity expert and advocate for diversity in tech. With a passion for education, Nyki creates engaging tutorials, certification guides, and community-focused resources to empower learners of all levels. Through her blog, she aims to foster inclusivity, provide actionable insights, and inspire the next generation of cybersecurity professionals.
 
 # Squirrel Theme Settings
 plugins:

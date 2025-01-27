@@ -7,14 +7,15 @@
       {% assign key = entry | first %}
       {% if sm[key].id %}
       <li>
-        <a href="{{ sm[key].href }}{{ sm[key].id }}"
-          title="{{ sm[key].title }}"><i
+        <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"
+          target="_blank" rel="noopener noreferrer"><i
             class="fa-2xl fa {{ sm[key].fa-icon }} social-media-link"></i></a>
       </li>
       {% endif %}
       {% endfor %}
       <li>
-        <a href="/rss.xml" title="RSS Feed"><i
+        <a href="/rss.xml" title="RSS Feed" target="_blank"
+          rel="noopener noreferrer"><i
             class="fa-2xl fa-solid fa-rss social-media-link"></i></a>
       </li>
     </ul>

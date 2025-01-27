@@ -1,9 +1,9 @@
 {
   "manifest_version": "3",
   "version": "1.2",
-  "name": "The-Programming-Squirrel",
-  "short_name": "ProgSquirrel",
-  "description": "Cybersecurity tips, tools, and resources for learners of all levels.",
+  "name": "The Programming Squirrel",
+  "short_name": "ProgramSquirrel",
+  "description": "Empowering cybersecurity learners with tutorials, guides, and an inclusive tech community.",
   "author": "nyki@the-programming-squirrel.com",
   "homepage_url": "the-programming-squirrel.com",
   "start_url": "/",
@@ -42,7 +42,20 @@
       "type": "image/png"
     }
   ],
-  "categories": ["education", "technology", "cybersecurity"],
+  "categories": [
+    "technology",
+    "cybersecurity",
+    "education",
+    "coding",
+    "women-in-tech",
+    "hacking",
+    "career-guides",
+    "ethical-hacking",
+    "tutorials",
+    "certification-resources",
+    "tech-news",
+    "blogging"
+  ],
   "default_locale": "en",
   "lang": "en",
   "scope": "/",
