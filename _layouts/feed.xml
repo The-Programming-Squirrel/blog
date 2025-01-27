@@ -1,0 +1,20 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>{{ site.title }}</title>
+        <link>{{ site.url }}/blog/</link>
+        <description>{{ site.description }}</description>
+        <language>en-us</language>
+        {% for post in site.posts %}
+        <item>
+            <title>{{ post.title }}</title>
+            <link>{{ site.url }}/blog/{{ post.slug }}</link>
+            <description>{{ post.excerpt | strip_html }}</description>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
