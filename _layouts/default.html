@@ -8,4 +8,10 @@
   {% include footer.html %}
 </body>
 
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    link.setAttribute('target', '_blank');
+  });
+</script>
+
 </html>

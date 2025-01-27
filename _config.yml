@@ -22,7 +22,7 @@ keywords: [
 ]
 baseurl: ""
 url: "https://the-programming-squirrel.com" 
-permalink: pretty
+permalink: date
 theme: jekyll-squirrel-theme
 
 # Author Details

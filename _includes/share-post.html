@@ -12,27 +12,32 @@
     <!-- Facebook -->
     <a class="facebook"
       href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
-      target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+      target="_blank" title="Share post on Facebook"><i
+        class="fa-brands fa-facebook fa-xl"></i></a>
 
     <!-- X (Twitter) -->
     <a class="twitter"
       href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}"
-      target="_blank" rel="noopener noreferrer"><i
+      target=" _blank" rel="noopener noreferrer"
+      title="Share article on X (Twitter)"><i
         class="fa-brands fa-x-twitter fa-xl"></i></a>
 
     <!-- LinkedIn -->
     <a class="linkedin"
       href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}"
-      target="_blank" rel="noopener noreferrer"><i
+      target="_blank" rel="noopener noreferrer"
+      title="Share article on LinkedIn"><i
         class="fa-brands fa-linkedin fa-xl"></i></a>
 
     <!-- Reddit -->
     <a class="reddit"
       href="https://reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}"
-      target="_blank" rel="noopener noreferrer"><i
+      target="_blank" rel="noopener noreferrer"
+      title="Share article on Reddit"><i
         class="fa-brands fa-reddit fa-xl"></i></a>
 
-    <button class="share-link" onclick="copyToClipboard()">
+    <button class="share-link" onclick="copyToClipboard()"
+      title="Copy link to clipboard">
       <i class="fa-solid fa-share-nodes fa-xl"></i>
     </button>
 
