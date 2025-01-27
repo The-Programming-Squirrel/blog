@@ -1,0 +1,74 @@
+<!-- Share Button -->
+<button class="share-post-button" onclick="openSharePopup()">Share
+  This Post <i class="fa-solid fa-share-nodes"></i></button>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="closeSharePopup()"></div>
+
+<!-- Share Popup -->
+<div class="share-popup" id="sharePopup">
+  <h5>Share This Post</h5>
+  <div class="share-buttons">
+    <!-- Facebook -->
+    <a class="facebook"
+      href="https://www.facebook.com/sharer/sharer.php?u=https://the-programming-squirrel.com/blog/{{ page.slug }}"
+      target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-facebook fa-xl"></i></a>
+
+    <!-- X (Twitter) -->
+    <a class="twitter"
+      href="https://twitter.com/intent/tweet?url=https://the-programming-squirrel.com/blog/{{ page.slug }}&text={{ page.title }}"
+      target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-x-twitter fa-xl"></i></a>
+
+    <!-- LinkedIn -->
+    <a class="linkedin"
+      href="https://www.linkedin.com/sharing/share-offsite/?url=https://the-programming-squirrel.com/blog/{{ page.slug }}"
+      target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-linkedin fa-xl"></i></a>
+
+    <!-- Reddit -->
+    <a class="reddit"
+      href="https://reddit.com/submit?url=https://the-programming-squirrel.com/blog/{{ page.slug }}&title={{ page.title }}E"
+      target="_blank" rel="noopener noreferrer"><i
+        class="fa-brands fa-reddit fa-xl"></i></a>
+
+    <button class="share-link" onclick="copyToClipboard()">
+      <i class="fa-solid fa-share-nodes fa-xl"></i>
+    </button>
+
+    <!-- Success Message -->
+    <p class="success-message" id="successMessage">Link copied to clipboard!</p>
+  </div>
+  <div class="close-popup" onclick="closeSharePopup()">Close</div>
+</div>
+
+<script>
+  function openSharePopup() {
+    document.getElementById('sharePopup').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+  }
+
+  function closeSharePopup() {
+    document.getElementById('sharePopup').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+  }
+  function copyToClipboard() {
+    // The URL to share
+    const shareLink = "https://the-programming-squirrel.com/blog/{{ page.slug }}";
+
+    // Copy the link to the clipboard
+    navigator.clipboard.writeText(shareLink).then(() => {
+      // Show success message
+      const successMessage = document.getElementById("successMessage");
+      successMessage.style.display = "block";
+
+      // Hide the message after 2 seconds
+      setTimeout(() => {
+        successMessage.style.display = "none";
+      }, 2000);
+    }).catch(err => {
+      console.error("Failed to copy link: ", err);
+    });
+  }
+</script>

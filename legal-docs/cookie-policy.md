@@ -12,14 +12,14 @@ author:
      fieldGroup: author
 description: Understand our Cookie Policy to enhance your privacy and browsing experience on The Programming Squirrel website.
 date: Jan 20, 2025, 8:08:23 AM
-last_mod: Jan 20, 2025, 7:20:58 PM
+last_mod: Jan 21, 2025, 9:47:28 PM
 keywords:
    - Cookie Policy
    - Essential Cookies
    - Functionality Cookies
 categories:
    - Legal Documents
-preview: cookie-policy-preview.jpg
+preview: /previews/cookie-policy-preview.jpg
 draft: published
 ---
 *Last updated: January 19th, 2025*

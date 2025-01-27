@@ -62,7 +62,7 @@
           "type": "image",
           "single": true,
           "description": "A URL linking to the author's profile image or avatar.",
-          "default": "icons/avatar.png"
+          "default": "/avatars/avatar-white-buttonup.pngg"
         },
         {
           "title": "Email Address",
@@ -90,7 +90,7 @@
         },
         {
           "title": "Title",
-          "name": "title",
+          "name": "meta-title",
           "type": "string",
           "description": "The headline or title of the content, displayed prominently to users and search engines."
         },
@@ -104,7 +104,7 @@
         },
         {
           "title": "Description",
-          "name": "description",
+          "name": "meta-description",
           "type": "string",
           "description": "A brief summary of the content, optimized for SEO and previews."
         },

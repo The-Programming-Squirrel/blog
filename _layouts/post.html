@@ -4,15 +4,19 @@ layout: default
 <article class="post">
   <div class="container">
     <h1>{{ page.title }}</h1>
-    <p class="post-meta">
-      Published on {{ page.date | date: '%B %d, %Y' }} by
-      {{ page.author.name | default: site.author.name }}
-      <img
-        src="{% link {{ page.author.avatar | default: site.author.avatar | image_url }} %}">
-    </p>
-    <div class="post-content">
-      {{ content }}
+    <div class="post-meta">
+      <p>Published on {{ page.date | date: '%B %d, %Y' }} by
+      </p>
+      <a class="post-author" href="{% link /portfolio/index.md %}"
+        title="Go to author's portfolio."> <img class="post-author-avatar"
+          src="{% link {{ page.author.avatar | default: site.author.avatar }} %}">
+        <p class="post-author-name">
+          {{ page.author.name | default: site.author.name }}
+        </p>
+      </a>
     </div>
+    <h2>Table of Contents 🪑</h2>
+    {{ content | toc }}
     <nav class="post-navigation">
       {% if page.previous.url %}
       <a href="{{ page.previous.url }}" class="prev-post">&larr;
@@ -24,4 +28,6 @@ layout: default
       {% endif %}
     </nav>
   </div>
+
+  {% include share-post.html %}
 </article>

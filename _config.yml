@@ -10,7 +10,7 @@ theme: jekyll-squirrel-theme
 # Author Details
 author:
   name: Nyki Anderson
-  avatar: "/assets/icons/avatar.png" 
+  avatar: /assets/avatars/avatar-white-buttonup.png
   bio: >
     Passionate cybersecurity advocate, empowering women & beginners with fun, accessible resources to crack the code & thrive in the field! 
 
