@@ -13,4 +13,32 @@ keywords:
   - cybersecurity guides
 draft: published
 preview: previews/blog-home.png
+pagination:
+  enabled: true
 ---
+
+{% if paginator.total_pages > 1 %}
+<ul>
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
+{% for post in paginator.posts %}
+  <div class="post-preview">
+    <h2><a href="{{ post.slug | prepend: page.permalink }}">{{ post.meta-title }}</a></h2>
+    <img src="{% link /assets/{{ post.preview }} %}" alt="A preview image for the post.">
+    <p>{{ post.meta-description }}</p>
+    <p>Categories: {{ post.categories | join: ", " }}</p>
+    <p><a href="{{ post.slug | prepend: page.permalink }}">Read more...</a></p>
+    <hr>
+  </div>
+{% endfor %}

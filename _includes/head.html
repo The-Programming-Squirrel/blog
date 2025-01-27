@@ -11,7 +11,7 @@
     content="{{ page.meta-description | default: site.description }}">
   <meta name="author" content="{{ site.author.name }}">
   <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.meta-title | default: site.title }}</title>
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60"
