@@ -1,5 +1,5 @@
 ---
-permalink: /squirrelly-dreams-digital-streams-blog-debuts/
+permalink: /blog/squirrelly-dreams-digital-streams-blog-debuts/
 slug: squirrelly-dreams-digital-streams-blog-debuts
 fmContentType: default
 layout: post
