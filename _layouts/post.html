@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
+
 <article class="post">
   <div class="container">
     <h1>{{ page.meta-title }}</h1>
     <div class="post-meta">
-      <p>Published on {{ page.date | date: '%B %d, %Y' }} by
+      <p class="post-meta-date"><em>Published on
+          {{ page.date | date: '%B %d, %Y' }}
+          by</em>
       </p>
       <a class="post-author" href="{% link /portfolio/index.md %}"
         title="Go to author's portfolio."> <img class="post-author-avatar"
@@ -15,6 +18,8 @@ layout: default
         </p>
       </a>
     </div>
+    <p><em>{{ page.excerpt }}</em></p>
+    <hr>
     <h2>Table of Contents 🪑</h2>
     {{ content | toc }}
   </div>

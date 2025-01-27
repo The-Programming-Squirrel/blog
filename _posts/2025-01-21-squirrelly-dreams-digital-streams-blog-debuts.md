@@ -11,8 +11,8 @@ author:
     avatar: /assets/avatars/avatar-white-buttonup.png
     email: nyki@the-programming-squirrel.com
     fieldGroup: author
-date: Jan 21, 2025, 12:00:00 AM
-last_mod: Jan 21, 2025, 4:00:44 AM
+date: Jan 27, 2025, 8:36:27 AM
+last_mod: Jan 27, 2025, 8:36:33 AM
 keywords:
   - cybersecurity blog introduction
   - tech blog debut post
@@ -40,11 +40,9 @@ categories:
   - Announcements
   - Behind-the-Code
 preview: previews/cyber-programmer-dark.jpg
+excerpt: In this debut post, we'll share what inspired us to create The-Programming-Squirrel, what you can look forward to in our content lineup, and why you'll want to join this community of curious minds and tech enthusiasts.
 toc: true
 ---
----
-
-*In this debut post, we'll share what inspired us to create The-Programming-Squirrel, what you can look forward to in our content lineup, and why you'll want to join this community of curious minds and tech enthusiasts.*
 
 ---
 

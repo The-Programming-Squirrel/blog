@@ -11,7 +11,7 @@
       {% if item %}
       <li>
         <a href="{{ item.dir }}" title="{{ item.title }}" {% if page.url
-          contains {{ item.dir }} %} class="active" {% endif %}>
+          contains item.dir %} class="active" {% endif %}>
           <i class="fa-solid {{ item.icon }} fa-xl"></i> {{ item.title }}</a>
       </li>
       {% endif %}

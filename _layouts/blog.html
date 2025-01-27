@@ -13,15 +13,18 @@ layout: default
         <div class="blog-post-content">
           <h2 class="blog-post-title"><a
               href="{{ post.url }}">{{ post.meta-title }}</a></h2>
-          <p class="blog-post-date">Published:
-            {{ post.date | date: "%B %d, %Y" }}
+          <div class="blog-post-meta">
+            <p class="blog-post-date"><strong>Published:</strong>
+              {{ post.date | date: "%B %d, %Y" }}
+            </p>
+            <p class="blog-post-categories"><strong> Categories:</strong>
+              {{ post.categories | join: ", "}}
+            </p>
+          </div>
+          <p class="blog-post-excerpt">
+            {{ post.excerpt | strip_html | truncate: 200 }}
           </p>
-          <p class="blog-post-description">Description:
-            {{ post.meta-description | strip_html | truncate: 150 }}
-          </p>
-          <p class="blog-post-categories">{{ post.categories | join: ", "}}</p>
-          <a href="{{ post.url }}" class="read-more">Read More <i
-              class="fa-solid fa-glasses"></i></a>
+          <a href="{{ post.url }}" class="read-more">Read More...</a>
         </div>
       </article>
       {% endfor %}
