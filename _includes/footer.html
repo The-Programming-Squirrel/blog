@@ -12,7 +12,8 @@
       <ul>
         {% for item in site.data.resources.footer-links %}
         {% if item %}
-        <li><a href="{{ item.dir }}">{{ item.title }}</a></li>
+        <li><a href="{{ item.dir }}">{{ item.title }}</a>
+        </li>
         {% endif %}
         {% endfor %}
       </ul>

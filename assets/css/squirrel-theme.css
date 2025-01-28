@@ -94,6 +94,7 @@ strong {
 p {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	font-size: 16pt;
 }
 
 /* Style internal links */
@@ -247,6 +248,14 @@ button,
 	align-items: center;
 }
 
+.cta-button i {
+	color: white;
+}
+
+.cta-button:hover i {
+	color: white;
+}
+
 button:hover,
 .cta-button:hover {
   background-color: var(--secondary-color);
@@ -334,9 +343,8 @@ button:hover,
 
 .hero .tagline {
   font-size: 1.5rem;
-	font-style: italic;
   margin-bottom: 2rem;
-	color: var(--secondary-color);
+	color: var(--text-color);
 }
 
 .hero img {

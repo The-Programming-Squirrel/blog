@@ -1,5 +1,5 @@
 ---
-permalink: /terms-conditions/
+permalink: /legal-docs/terms-conditions/
 slug: legal-docs-terms-conditions
 fmContentType: default
 layout: page

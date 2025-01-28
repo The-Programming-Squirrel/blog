@@ -14,13 +14,13 @@ navbar:
     
 footer-links:
   - privacy-policy:
-    dir: legal-docs/privacy-policy.md
+    dir: legal-docs/privacy-policy
     title: Privacy Policy
   - terms-conditions:
-    dir: legal-docs/terms-conditions.md
+    dir: legal-docs/terms-conditions
     title: Terms & Conditions
   - cookie-policy:
-    dir: legal-docs/cookie-policy.md
+    dir: legal-docs/cookie-policy
     title: Cookie Policy
   - contact:
     dir: /contact/

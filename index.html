@@ -1,57 +1,51 @@
 ---
 permalink: /
 layout: page
-meta-title: The Programming Squirrel Home
+meta-title: "Home | The Programming Squirrel"
+meta-description: ""
+tagline: "Empowering the next generation of cybersecurity experts through expert
+content, tutorials, and resources."
 ---
 
-<div class="landing-page">
+<div class="home-page">
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
       <img src="{% link /assets/categories/cyber/cybersecurity-squirrel.png %}"
         alt="The Programming Squirrel Logo">
-      <p class="tagline">Break barriers. Unlock your cybersecurity career
-        potential.</p>
-      <a href="#about" class="cta-button">Learn More<i
-          class="fa-solid fa-arrow-right"></i></a>
+      <p class="tagline">Empowering the next generation of cybersecurity experts
+        through expert content, tutorials, and resources.</p>
+      <a href="#about" class="cta-button scroll-button">Learn More<i
+          class="fa-solid fa-arrow-down"></i></a>
     </div>
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
     <div class="container">
-      <h2>About Us</h2>
+      <h2>Who We Are 🐿️</h2>
       <p>
-        Welcome to The Programming Squirrel, your trusted partner in navigating
-        the exciting world of cybersecurity! Founded by Nyki Anderson, our
-        mission is to empower beginners and women aspiring to break into the
-        cybersecurity industry. We understand the unique challenges faced by
-        newcomers, especially women, in this dynamic field. That’s why we
-        provide comprehensive certification study guides and educational
-        materials designed to simplify complex concepts, build confidence, and
-        set you up for success in your cybersecurity journey.
+        At The Programming Squirrel, we’re building a supportive community of
+        aspiring and seasoned cybersecurity professionals. Our mission is to
+        empower underrepresented voices, particularly women, to thrive in the
+        tech world. Through engaging tutorials, expert resources, and hands-on
+        learning, we make complex cybersecurity concepts accessible to everyone.
+        Join us in shaping a safer digital future!
       </p>
-      <p>
-        At The Programming Squirrel, we believe that advocacy and outreach can
-        inspire a new generation of women to pursue rewarding careers in
-        cybersecurity. Through relatable content, practical resources, and a
-        supportive community, we aim to create a welcoming space where
-        everyone—regardless of background—feels encouraged to learn, grow, and
-        thrive. Join us as we work to make cybersecurity accessible, inclusive,
-        and empowering for all.
-      </p>
+      <a href="#resources" class="cta-button scroll-button">Explore Our
+        Resources<i class="fa-solid fa-book-open-reader"></i></a>
     </div>
   </section>
 
   <!-- Resources Section -->
   <section id="resources" class="resources">
     <div class="container">
-      <h2>Our Resources</h2>
-      <p>The Programming Squirrel is your gateway to cybersecurity success. With
-        expert advice, beginner-friendly tutorials, and a supportive community,
-        we help women and students overcome challenges, gain confidence, and
-        build careers in this dynamic field. Join us to unlock opportunities,
-        enhance skills, and thrive in the high-stakes world of cybersecurity.
+      <h2>Supercharging Your Cybersecurity Journey 🏎️</h2>
+      <p>Dive into a wealth of expertly curated resources designed to support
+        every stage of your cybersecurity adventure. From certification guides
+        and interactive tutorials to hands-on ethical hacking simulations, our
+        tools are tailored to help you grow. Whether you’re preparing for exams
+        or exploring cutting-edge trends, we’ve got you covered.
       </p>
 
       <div class="resource-cards">
@@ -78,6 +72,8 @@ meta-title: The Programming Squirrel Home
           <p>Hands-on exercises using Docker containers to simulate ethical
             hacking.</p>
         </div>
+        <a href="#community" class="cta-button scroll-button">Join Our
+          Mission<i class="fa-solid fa-shield-halved"></i></a>
       </div>
     </div>
   </section>
@@ -85,15 +81,19 @@ meta-title: The Programming Squirrel Home
   <!-- Community Section -->
   <section id="community" class="community">
     <div class="container">
-      <h2>Find Community</h2>
+      <h2>The Squirrel Squad 🐿️</h2>
       <img src="{% link assets/categories/cyber/cyber-community.jpg %}"
         alt="An inclusive group sharing cybersecurity knowledge">
-      <p>
-        Be part of a growing network of cybersecurity enthusiasts, learners, and
-        professionals.
-        Share your journey, collaborate on projects, and celebrate milestones
-        together!
+      <p> Connect with a diverse, supportive network of cybersecurity
+        enthusiasts and professionals who share your passion for tech and
+        innovation. From forums and Q&A sessions to live events and expert-led
+        discussions, our community is here to inspire, guide, and grow with you.
+        Together, we’re shaping the future of cybersecurity.
       </p>
+      <p>Join the squad and get to know us on social media 💬</p>
+      {% include social-media-links.html %}
+      <a href="#newsletter" class="cta-button scroll-button">Stay in the Know<i
+          class="fa-solid fa-paper-plane"></i></a>
     </div>
   </section>
 
@@ -102,7 +102,24 @@ meta-title: The Programming Squirrel Home
     <div class="container">
       <iframe
         src="https://forms.monday.com/forms/embed/871a6679d20582c3242777bde53951bc?r=use1"
-        width="700" height="500" title="Subscribe to Newsletter"></iframe>
+        width="700" height="500" title="Subscribe Now"></iframe>
+    </div>
+  </section>
+  <section id="blog" class="blog">
+    <div class="container">
+      <a href="/blog/" class="cta-button">Go to Our Blog<i
+          class="fa-solid fa-person-walking-luggage"></i></a>
     </div>
   </section>
 </div>
+<script>
+  document.querySelectorAll('.scroll-button').forEach(button => {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      const targetId = this.getAttribute('href');
+      document.querySelector(targetId).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>

@@ -1,5 +1,5 @@
 ---
-permalink: /cookie-policy/
+permalink: /legal-docs/cookie-policy/
 slug: legal-docs-cookie-policy
 fmContentType: default
 layout: page

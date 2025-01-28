@@ -1,5 +1,5 @@
 ---
-permalink: /privacy-policy/
+permalink: /legal-docs/privacy-policy/
 slug: legal-docs-privacy-policy
 fmContentType: default
 layout: page
