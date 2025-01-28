@@ -24,12 +24,13 @@ baseurl: ""
 url: "https://the-programming-squirrel.com" 
 canonical_url: "https://the-programming-squirrel.com" 
 permalink: date
+logo: /assets/logos/logo-192x192.png
 theme: jekyll-squirrel-theme
 
 # Author Details
 author:
   name: Nyki Anderson
-  avatar: /assets/avatars/avatar-white-buttonup.png
+  avatar: assets/avatars/avatar-white-buttonup.png
   bio: >
     Nyki Anderson, founder of The Programming Squirrel, is a cybersecurity expert and advocate for diversity in tech. With a passion for education, Nyki creates engaging tutorials, certification guides, and community-focused resources to empower learners of all levels. Through her blog, she aims to foster inclusivity, provide actionable insights, and inspire the next generation of cybersecurity professionals.
 
