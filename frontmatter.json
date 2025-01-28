@@ -89,10 +89,33 @@
       "template": "/frontmatter/templates/default.md",
       "fields": [
         {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        },
+        {
           "title": "Permalink",
           "name": "permalink",
           "type": "string",
-          "description": "The permanent URL for this content, typically including the domain and slug."
+          "description": "The permanent URL for this content, typically including the domain, date, and slug."
+        },
+        {
+          "title": "canonical_url",
+          "name": "Canonical URL",
+          "type": "string",
+          "description": "Prevent duplicate content issues."
+        },
+        {
+          "title": "URL Slug",
+          "name": "slug",
+          "type": "slug",
+          "editable": true,
+          "description": "A URL-friendly identifier derived from the title, used to construct the permalink."
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
         },
         {
           "title": "Title",
@@ -101,18 +124,18 @@
           "description": "The headline or title of the content, displayed prominently to users and search engines."
         },
         {
+          "title": "Description",
+          "name": "meta-description",
+          "type": "string",
+          "description": "A brief summary of the content, optimized for SEO and previews."
+        },
+        {
           "title": "Author Bio",
           "name": "author",
           "type": "block",
           "fieldGroup": [
             "author"
           ]
-        },
-        {
-          "title": "Description",
-          "name": "meta-description",
-          "type": "string",
-          "description": "A brief summary of the content, optimized for SEO and previews."
         },
         {
           "title": "Date Published",
@@ -131,17 +154,22 @@
           "description": "The date when the content was last modified, (formatted: Apr 29, 1453, 12:00:00 AM)."
         },
         {
-          "title": "URL Slug",
-          "name": "slug",
-          "type": "slug",
-          "editable": true,
-          "description": "A URL-friendly identifier derived from the title, used to construct the permalink."
+          "title": "robots",
+          "name": "Robots Meta Tag",
+          "type": "string",
+          "description": "Control indexing (index, follow or no index)."
         },
         {
           "title": "Focus Keywords",
           "name": "keywords",
           "type": "list",
           "description": "A list of relevant keywords for SEO purposes."
+        },
+        {
+          "title": "Tags",
+          "name": "SEO Tags",
+          "type": "tags",
+          "description": "SEO tags to establish relationships between posts."
         },
         {
           "title": "Categories",
@@ -176,14 +204,16 @@
           "required": false
         },
         {
-          "title": "layout",
-          "name": "layout",
-          "type": "string"
+          "title": "excerpt",
+          "name": "Article Excerpt",
+          "type": "string",
+          "description": "An SEO optimized excerpt from the article that is displayed in the blog feed preview and google search listing."
         },
         {
-          "title": "fmContentType",
-          "name": "fmContentType",
-          "type": "string"
+          "title": "toc",
+          "name": "Table of Contents",
+          "type": "boolean",
+          "description": "Toggle table of contents displayed before content on page."
         }
       ]
     }

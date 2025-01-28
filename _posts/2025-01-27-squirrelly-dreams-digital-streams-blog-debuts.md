@@ -1,46 +1,58 @@
 ---
+fmContentType: default
 permalink: /blog/2025-01-27-squirrelly-dreams-digital-streams-blog-debuts/
 slug: squirrelly-dreams-digital-streams-blog-debuts
-fmContentType: default
+canonical_url: "https://the-programming-squirrel.com/blog/2025-01-27-squirrelly-dreams-digital-streams-blog-debits"
 layout: post
 meta-title: "From Squirrelly Dreams to Digital Streams: Our Blog Debuts"
 meta-description: Discover The Programming Squirrel, your go-to source for engaging cybersecurity content, expert tips, and community support. Join us today!
 author:
   - name: Nyki Anderson
-    title: Lead Cybersecurity Architect & Founder
+    title: "Founder & Content Creator"
     avatar: /assets/avatars/avatar-white-buttonup.png
     email: nyki@the-programming-squirrel.com
     fieldGroup: author
 date: Jan 27, 2025, 8:36:27 AM
 last_mod: Jan 27, 2025, 8:36:33 AM
+robots: "index, follow"
 keywords:
-  - cybersecurity blog introduction
-  - tech blog debut post
+  - blog debut
+  - cybersecurity community
+  - women in tech
+  - programming resources
+  - tech blog debut
+  - launch of a new cybersecurity blog
+  - The Programming Squirrel's journey and mission
+  - empowering women in tech through education
+  - exploring the latest in cybersecurity trends
+  - community-driven cybersecurity resources and learning
 tags:
-  - Cybersecurity Blog
-  - Tech Trends
-  - Women in Tech
-  - Cybersecurity Community
-  - Cybersecurity Resources
-  - Cybersecurity Tutorials
-  - Certification Guides
-  - Digital Learning
-  - Inclusive Tech Community
-  - The-Programming-Squirrel
-  - Cybersecurity for Beginners
-  - Advanced Cybersecurity Topics
-  - Tech Blog Launch
-  - Cyber Threat Awareness
-  - Tech Industry Insights
-  - Cybersecurity Advocacy
-  - Cybersecurity Certification Prep
-  - Learn Cybersecurity Online
-  - Cybersecurity for Women
+  - cybersecurity blog
+  - tech trends
+  - women in tech
+  - cybersecurity community
+  - cybersecurity resources
+  - cybersecurity tutorials
+  - certification guides
+  - digital learning
+  - inclusive tech community
+  - cybersecurity for beginners
+  - advanced cybersecurity topics
+  - tech blog launch
+  - cyber threat awareness
+  - tech industry insights
+  - cybersecurity advocacy
+  - cybersecurity certification prep
+  - learn cybersecurity online
+  - cybersecurity for women
 categories:
   - Announcements
   - Behind-the-Code
+  - Brand
+draft: published
 preview: previews/cyber-programmer-dark.jpg
-excerpt: In this debut post, we'll share what inspired us to create The Programming Squirrel, what you can look forward to in our content lineup, and why you'll want to join this community of curious minds and tech enthusiasts.
+related_posts: []
+excerpt: Discover the inspiration behind The Programming Squirrel, explore our tech-savvy content lineup, and join our vibrant community of cybersecurity enthusiasts and curious minds.
 toc: true
 ---
 

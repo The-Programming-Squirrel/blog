@@ -1,26 +1,50 @@
 ---
+fmContentType: default
 permalink: /legal-docs/privacy-policy/
 slug: legal-docs-privacy-policy
-fmContentType: default
+canonical_url: https://the-programming-squirrel.com/legal-docs/privacy-policy
 layout: page
-title: "Legal Docs: The Privacy Policy"
+meta-title: "Legal Docs: The Privacy Policy"
+meta-description: Learn how we collect, use, and protect your personal information to ensure your privacy and security while using our website
 author:
     - name: Nyki Anderson
-      title: Lead Cybersecurity Architect & Founder
+      title: Founder and Content Creator
       avatar: /images/avatar.png
       email: nyki@the-programming-squirrel.com
       fieldGroup: author
-description: Learn how we collect, use, and protect your personal information to ensure your privacy and security while using our website
 date: Jan 20, 2025, 7:37:33 AM
-last_mod: Jan 20, 2025, 7:20:05 PM
+last_mod: Jan 27, 2025, 9:23:22 PM
+robots: index, follow
+draft: published
 keywords:
-    - Privacy Policy
-    - Data Protection Policy
-    - User Privacy Guidelines
+    - privacy policy
+    - data protection
+    - user privacy
+    - website privacy policy
+    - online privacy
+    - protecting user data online
+    - privacy rights and responsibilities
+    - personal information collection practices
+    - terms of use and privacy policy
+    - security measures for user privacy
+tags:
+    - privacy
+    - data protection
+    - user data
+    - gdpr compliance
+    - personal information
+    - data security
+    - website privacy
+    - terms and conditions
+    - online privacy
+    - user rights
 categories:
     - Legal Documents
 preview: /previews/privacy-policy-preview.jpg
-draft: published
+related_posts:
+    - /legal-docs/terms-conditions/
+    - /legal-docs/cookie-policy/
+excerpt: The Privacy Policy page outlines how user data is collected, stored, and protected. It ensures compliance with privacy laws and informs users about their data rights.
 ---
 *Effective Date: January 13, 2025*
 
