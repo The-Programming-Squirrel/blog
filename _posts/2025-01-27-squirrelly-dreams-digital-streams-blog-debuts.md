@@ -54,6 +54,7 @@ preview: previews/cyber-programmer-dark.jpg
 related_posts: []
 excerpt: Discover the inspiration behind The Programming Squirrel, explore our tech-savvy content lineup, and join our vibrant community of cybersecurity enthusiasts and curious minds.
 toc: true
+og_type: "article"
 ---
 
 ---
