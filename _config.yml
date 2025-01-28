@@ -22,6 +22,7 @@ keywords: [
 ]
 baseurl: ""
 url: "https://the-programming-squirrel.com" 
+canonical_url: "https://the-programming-squirrel.com" 
 permalink: date
 theme: jekyll-squirrel-theme
 

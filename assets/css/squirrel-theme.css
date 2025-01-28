@@ -491,12 +491,12 @@ section {
 }
 
 /* Social Media Links */
-#social-media .container {
+.social-media .container {
 	display: flex;
 	justify-content: center;
 }
 
-#social-media ul {
+.social-media ul {
 	list-style: none;
 	display: flex;
 	gap: 2rem;

@@ -7,7 +7,6 @@
   <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="title" content="{{ page.meta-title | default: site.title }}">
   <meta name="description"
     content="{{ page.meta-description | default: site.description | truncate: 160, '...' }}">
@@ -16,7 +15,7 @@
   <meta name="keywords"
     content="{{ page.keywords | default: site.keywords | join: ', '}}">
   <link rel="canonical"
-    href="{{ page.canonical_url | prepend: site.canonical_url }}">
+    href="{{ page.canonical_url | default: site.canonical_url }}">
 
   <!-- Open Graph Metadata-->
   <meta property="og:locale" content="en_US">
@@ -41,7 +40,8 @@
     content="{{ page.meta-title | default: site.title | truncate: 60 }}">
   <meta name="twitter:description"
     content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 25, '...' }}">
-  <meta name="twitter:image" content="{{ page.preview | absolute_url }}">
+  <meta name="twitter:image"
+    content="{{ page.preview | prepend: '/assets/' | absolute_url }}">
   <meta name="twitter:site" content="@ProgramSquirrel">
   <meta name="twitter:card" content="summary">
 
