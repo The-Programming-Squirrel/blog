@@ -8,26 +8,38 @@
 
     <!-- Footer Navigation -->
     <div class="footer-links">
-      <h5>Quick Links</h5>
-      <ul>
-        {% for item in site.data.resources.footer-links %}
-        {% if item %}
-        <li><a href="{{ item.dir }}">{{ item.title }}</a>
-        </li>
+      <div class="footer-links-column quick-links">
+        <div>
+          <h5>Legal Pages</h5>
+          <ul>
+            {% for legal in site.data.resources.legal %}
+            {% if legal %}
+            <li><a href="{{ legal.dir }}">{{ legal.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <h5>Site Pages</h5>
+          <ul>
+            {% for site-page in site.data.resources.site-pages %}
+            {% if site-page %}
+            <li><a href="{{ site-page.dir }}">{{ site-page.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <!-- Footer Branding -->
+      <div class="footer-branding">
+        {% assign logo = site.data.logos.dark-192x192 %}
+        {% if logo %}
+        <a href="{% link index.html %}" class="footer-logo">
+          <img src="{% link {{ logo.src }} %}" alt="{{ logo.alt }}"></a>
         {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <!-- Footer Branding -->
-    {% assign logo = site.data.logos.dark-192x192 %}
-    {% if logo %}
-    <div class="footer-branding">
-      <a href="{% link index.html %}" class="footer-logo">
-        <img src="{% link {{ logo.src }} %}" alt="{{ logo.alt }}"></a>
-      {% endif %}
-      <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All
-        rights reserved.</p>
-    </div>
-  </div>
+        <p>&copy; {{ site.time | date: '%Y' }} The Programming Squirrel. All
+          rights reserved.</p>
+      </div>
 </footer>

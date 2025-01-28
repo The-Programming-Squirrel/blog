@@ -12,7 +12,7 @@ navbar:
     title: Contact Us
     icon: fa-inbox
     
-footer-links:
+legal:
   - privacy-policy:
     dir: legal-docs/privacy-policy
     title: Privacy Policy
@@ -22,6 +22,11 @@ footer-links:
   - cookie-policy:
     dir: legal-docs/cookie-policy
     title: Cookie Policy
-  - contact:
-    dir: /contact/
-    title: Contact Us
+  
+site-pages:  
+  - site-map:
+    dir: /sitemap.xml
+    title: Sitemap
+  - robots:
+    dir: /robots.txt
+    title: Robots
